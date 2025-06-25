@@ -1,133 +1,96 @@
 "use client";
 
-import OpenAI from "openai";
+import OpenAI, { toFile } from "openai";
 import { useEffect, useState } from "react";
 
 export default function Home() {
-  const [subs, setSubs] = useState("");
+  const [apiKey, setApiKey] = useState<string>("");
   const [file, setFile] = useState<File | null>(null);
-  const [loading, setLoading] = useState(false);
-  const [apiKey, setApiKey] = useState("");
-  const [inputKey, setInputKey] = useState("");
+  const [isLoading, setIsLoading] = useState<boolean>(false);
+
+  // API KEY
+  const handleSetApiKey = () => {
+    localStorage.setItem("apiKey", apiKey);
+  };
+
+  const handleGetApiKey = () => {
+    const apiKey = localStorage.getItem("apiKey");
+    if (apiKey) {
+      setApiKey(apiKey);
+    }
+  };
+
+  // HANDLE FILE UPLOAD
+  const handleUploadFile = (e: React.ChangeEvent<HTMLInputElement>) => {
+    if (e.target.files && e.target.files[0]) {
+      setFile(e.target.files[0]);
+    }
+  };
+
+  // GENERATE TRANSCRIPTION
+  const generateTranscription = async () => {
+    if (!file || !apiKey) {
+      alert("API Key e file sono obbligatori.");
+      return;
+    }
+    setIsLoading(true);
+    try {
+      const openai = new OpenAI({ apiKey, dangerouslyAllowBrowser: true });
+      const openaiFile = await toFile(file, file.name);
+      const data = await openai.audio.transcriptions.create({
+        file: openaiFile,
+        model: "whisper-1",
+        response_format: "verbose_json",
+        timestamp_granularities: ["segment", "word"],
+      });
+      console.log(data); // verbose_json
+    } catch (err) {
+      console.error(err);
+      alert("Errore durante la trascrizione");
+    } finally {
+      setIsLoading(false);
+    }
+  };
 
   useEffect(() => {
-    const storedKey = localStorage.getItem("OPENAI_API_KEY");
-    if (storedKey) {
-      setApiKey(storedKey);
-      setInputKey(storedKey);
-    }
+    handleGetApiKey();
   }, []);
 
-  const handleKeySave = () => {
-    localStorage.setItem("OPENAI_API_KEY", inputKey.trim());
-    setApiKey(inputKey.trim());
-    alert("Saved!");
-  };
-
-  const generateSubs = async (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!file || !apiKey) return;
-
-    setLoading(true);
-    const openai = new OpenAI({
-      apiKey,
-      dangerouslyAllowBrowser: true,
-    });
-
-    try {
-      const transcription = await openai.audio.transcriptions.create({
-        file,
-        model: "whisper-1",
-        response_format: "srt",
-      });
-      setSubs(transcription as unknown as string);
-    } catch (err) {
-      console.error("Transcription failed:", err);
-      setSubs("Errore durante la trascrizione.");
-    } finally {
-      setLoading(false);
-    }
-  };
-
-  const downloadSRT = () => {
-    const blob = new Blob([subs], { type: "text/plain" });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement("a");
-    a.href = url;
-    a.download = "subtitles.srt";
-    a.click();
-    URL.revokeObjectURL(url);
-  };
-
   return (
-    <div className="max-w-screen-sm p-4 mx-auto">
-      <div className="mb-16">
-        <label className="block mb-2 font-bold">OpenAI API Key</label>
+    <div className="max-w-screen-sm mx-auto p-4 flex flex-col gap-16">
+      {/* api key section */}
+      <div>
+        <h1 className="text-2xl font-bold mb-2">Imposta API Key</h1>
         <div className="flex gap-2">
           <input
             type="password"
-            value={inputKey}
-            onChange={(e) => setInputKey(e.target.value)}
-            className="flex-1 input input-bordered"
-            placeholder="sk-..."
+            value={apiKey}
+            onChange={(e) => setApiKey(e.target.value)}
+            className="input flex-1"
           />
-          <button
-            onClick={handleKeySave}
-            className="btn btn-secondary"
-            disabled={!inputKey.trim()}
-          >
-            Salva
+          <button onClick={handleSetApiKey} className="btn">
+            Imposta API Key
           </button>
         </div>
       </div>
-
-      <form
-        onSubmit={generateSubs}
-        className="flex flex-col w-full gap-2 mb-16"
-      >
-        <label className="block w-full mb-4 text-2xl font-bold">
-          Carica un file audio MP3 (max 24MB)
-        </label>
-        <div className="flex w-full gap-2">
+      {/* upload section */}
+      <div className="flex flex-col gap-2">
+        <h1 className="text-2xl font-bold mb-2">Carica un file MP3</h1>
+        <div className="flex gap-2">
           <input
             type="file"
-            accept=".mp3,audio/*"
-            className="flex-1 file-input"
-            onChange={(e) => setFile(e.target.files?.[0] || null)}
+            accept=".mp3"
+            className="file-input w-full flex-1"
+            onChange={handleUploadFile}
           />
-          <label className="label">
-            parole singole
-            <input type="checkbox" defaultChecked className="toggle" />
-            frasi intere
-          </label>
+          <button
+            className="btn btn-primary"
+            onClick={generateTranscription}
+            disabled={isLoading}
+          >
+            {isLoading ? "Caricamento..." : "Crea Sottotitoli"}
+          </button>
         </div>
-        <button
-          type="submit"
-          className="w-full btn btn-primary"
-          disabled={loading || !file || !apiKey || file.size > 26214400}
-        >
-          {loading ? "Trascrizione in corso..." : "Crea Sottotitoli"}
-        </button>
-      </form>
-
-      <div>
-        <p className="mb-4 text-2xl font-bold">
-          {subs ? "Sottotitoli generati:" : "Nessun file caricato..."}
-        </p>
-        <textarea
-          name="subtitles"
-          id="subtitles"
-          className="w-full h-64 mb-2 bg-base-200"
-          value={subs}
-          readOnly
-        />
-        <button
-          className="w-full btn btn-outline"
-          onClick={downloadSRT}
-          disabled={!subs}
-        >
-          Scarica file .srt
-        </button>
       </div>
     </div>
   );

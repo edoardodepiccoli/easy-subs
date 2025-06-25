@@ -1,0 +1,4519 @@
+{
+  "task": "transcribe",
+  "language": "english",
+  "duration": 222.5800018310547,
+  "text": "Something weird has happened to hobbies. They don't feel like hobbies anymore. Whether you're into music production, skateboarding, painting, photography, or filmmaking, our culture has made us feel like this recreation time is a waste unless it's building toward something bigger. You can't just paint anymore. You have to be developing your artistic voice. You can't just skateboard. You have to be progressing, filming tricks, building your style. Photography isn't about taking pictures you like. It's about finding your niche, maybe shooting some weddings on the side. But here's what's really happening. We've taken everything that used to be just for fun and turned it into another form of work. We've lost the ability to do something just because it feels good to do it. Everything has to have a trajectory, a purpose beyond just existing, and honestly, it's killing the joy out of everything. The thing that made hobbies special was that they were the one area of your life where you could be terrible at something and it didn't matter, where you could experiment, mess up, try weird stuff, and there were no consequences because it was just for you. Now we're tracking our progress, setting goals, comparing ourselves to others online, treating our free time like it's another job we're not getting paid for. We've infected our downtime with the same productivity mindset that already dominates everything else. I see this constantly with creative stuff. Someone starts making beats because they think it might be fun, but within a week they're watching YouTube tutorials on the producer mindset and building your brand as a beat maker. They haven't even finished their first track and they're already thinking about SoundCloud followers and getting signed to a label or painting. People download Procreate to mess around with digital art, but suddenly they're researching brush settings and watching speedpaint tutorials, and feeling frustrated because their stuff doesn't look like what they see online. The experimentation phase gets skipped entirely. Social media obviously makes this worse. Everything becomes content. You can't just skateboard for the feeling of it. You should probably be filming tricks for TikTok. You can't just produce music for yourself. Why not post those beats on Instagram? The act of documenting the hobby becomes more important than actually enjoying the hobby. And then there's the productivity guilt. We live in a culture where rest feels irresponsible. If you're not hustling, grinding, building something, what are you even doing? Hobbies feel frivolous because they don't directly contribute to your career or your bank account or your personal development. But that's exactly the point. Hobbies aren't supposed to be productive. They're supposed to be the antidote to productivity culture, not another victim of it. When you make music just because certain sounds make you happy, when you paint just to see colors mixed together, when you skateboard just to feel the movement, that's not wasted time. That's your brain getting to play. That's you remembering what it feels like to be human instead of a productivity machine. We've convinced ourselves that if something doesn't lead somewhere, it's pointless. But what if the point is just the doing? What if the value is in the experience itself, not in any outcome or product you might create? We've made everything into a potential side hustle. Every interest has to be justified through productivity or profit. But when every hobby becomes a business opportunity, we lose something essential about what makes them valuable in the first place. Your hobbies don't owe you anything. They don't have to make you money or make you better or make you more interesting. Sometimes the most radical thing you can do is just enjoy something for the sake of enjoying it.",
+  "segments": [
+      {
+          "id": 0,
+          "seek": 0,
+          "start": 0,
+          "end": 4.760000228881836,
+          "text": " Something weird has happened to hobbies. They don't feel like hobbies anymore.",
+          "tokens": [
+              50364,
+              6595,
+              3657,
+              575,
+              2011,
+              281,
+              35750,
+              13,
+              814,
+              500,
+              380,
+              841,
+              411,
+              35750,
+              3602,
+              13,
+              50596
+          ],
+          "temperature": 0,
+          "avg_logprob": -0.1791134625673294,
+          "compression_ratio": 1.7441860437393188,
+          "no_speech_prob": 0.00023408902052324265
+      },
+      {
+          "id": 1,
+          "seek": 0,
+          "start": 5.519999980926514,
+          "end": 10.460000038146973,
+          "text": " Whether you're into music production, skateboarding, painting, photography, or filmmaking,",
+          "tokens": [
+              50628,
+              8503,
+              291,
+              434,
+              666,
+              1318,
+              4265,
+              11,
+              32204,
+              278,
+              11,
+              5370,
+              11,
+              13865,
+              11,
+              420,
+              43133,
+              11,
+              50912
+          ],
+          "temperature": 0,
+          "avg_logprob": -0.1791134625673294,
+          "compression_ratio": 1.7441860437393188,
+          "no_speech_prob": 0.00023408902052324265
+      },
+      {
+          "id": 2,
+          "seek": 0,
+          "start": 10.819999694824219,
+          "end": 16.459999084472656,
+          "text": " our culture has made us feel like this recreation time is a waste unless it's building toward",
+          "tokens": [
+              50912,
+              527,
+              3713,
+              575,
+              1027,
+              505,
+              841,
+              411,
+              341,
+              31573,
+              565,
+              307,
+              257,
+              5964,
+              5969,
+              309,
+              311,
+              2390,
+              7361,
+              51184
+          ],
+          "temperature": 0,
+          "avg_logprob": -0.1791134625673294,
+          "compression_ratio": 1.7441860437393188,
+          "no_speech_prob": 0.00023408902052324265
+      },
+      {
+          "id": 3,
+          "seek": 0,
+          "start": 16.459999084472656,
+          "end": 21.6200008392334,
+          "text": " something bigger. You can't just paint anymore. You have to be developing your artistic voice.",
+          "tokens": [
+              51184,
+              746,
+              3801,
+              13,
+              509,
+              393,
+              380,
+              445,
+              4225,
+              3602,
+              13,
+              509,
+              362,
+              281,
+              312,
+              6416,
+              428,
+              17090,
+              3177,
+              13,
+              51456
+          ],
+          "temperature": 0,
+          "avg_logprob": -0.1791134625673294,
+          "compression_ratio": 1.7441860437393188,
+          "no_speech_prob": 0.00023408902052324265
+      },
+      {
+          "id": 4,
+          "seek": 0,
+          "start": 22,
+          "end": 26.540000915527344,
+          "text": " You can't just skateboard. You have to be progressing, filming tricks, building your style.",
+          "tokens": [
+              51456,
+              509,
+              393,
+              380,
+              445,
+              32204,
+              13,
+              509,
+              362,
+              281,
+              312,
+              36305,
+              11,
+              8869,
+              11733,
+              11,
+              2390,
+              428,
+              3758,
+              13,
+              51704
+          ],
+          "temperature": 0,
+          "avg_logprob": -0.1791134625673294,
+          "compression_ratio": 1.7441860437393188,
+          "no_speech_prob": 0.00023408902052324265
+      },
+      {
+          "id": 5,
+          "seek": 2654,
+          "start": 26.540000915527344,
+          "end": 30.899999618530273,
+          "text": " Photography isn't about taking pictures you like. It's about finding your niche,",
+          "tokens": [
+              50376,
+              13919,
+              5820,
+              1943,
+              380,
+              466,
+              1940,
+              5242,
+              291,
+              411,
+              13,
+              467,
+              311,
+              466,
+              5006,
+              428,
+              19956,
+              11,
+              50592
+          ],
+          "temperature": 0,
+          "avg_logprob": -0.19372351467609406,
+          "compression_ratio": 1.6722408533096313,
+          "no_speech_prob": 0.03846096247434616
+      },
+      {
+          "id": 6,
+          "seek": 2654,
+          "start": 31.360000610351562,
+          "end": 34.79999923706055,
+          "text": " maybe shooting some weddings on the side. But here's what's really happening.",
+          "tokens": [
+              50592,
+              1310,
+              5942,
+              512,
+              39617,
+              322,
+              264,
+              1252,
+              13,
+              583,
+              510,
+              311,
+              437,
+              311,
+              534,
+              2737,
+              13,
+              50796
+          ],
+          "temperature": 0,
+          "avg_logprob": -0.19372351467609406,
+          "compression_ratio": 1.6722408533096313,
+          "no_speech_prob": 0.03846096247434616
+      },
+      {
+          "id": 7,
+          "seek": 2654,
+          "start": 35.459999084472656,
+          "end": 39.220001220703125,
+          "text": " We've taken everything that used to be just for fun and turned it into another form of work.",
+          "tokens": [
+              50796,
+              492,
+              600,
+              2726,
+              1203,
+              300,
+              1143,
+              281,
+              312,
+              445,
+              337,
+              1019,
+              293,
+              3574,
+              309,
+              666,
+              1071,
+              1254,
+              295,
+              589,
+              13,
+              51004
+          ],
+          "temperature": 0,
+          "avg_logprob": -0.19372351467609406,
+          "compression_ratio": 1.6722408533096313,
+          "no_speech_prob": 0.03846096247434616
+      },
+      {
+          "id": 8,
+          "seek": 2654,
+          "start": 39.52000045776367,
+          "end": 43.41999816894531,
+          "text": " We've lost the ability to do something just because it feels good to do it.",
+          "tokens": [
+              51004,
+              492,
+              600,
+              2731,
+              264,
+              3485,
+              281,
+              360,
+              746,
+              445,
+              570,
+              309,
+              3417,
+              665,
+              281,
+              360,
+              309,
+              13,
+              51216
+          ],
+          "temperature": 0,
+          "avg_logprob": -0.19372351467609406,
+          "compression_ratio": 1.6722408533096313,
+          "no_speech_prob": 0.03846096247434616
+      },
+      {
+          "id": 9,
+          "seek": 2654,
+          "start": 43.720001220703125,
+          "end": 48.81999969482422,
+          "text": " Everything has to have a trajectory, a purpose beyond just existing, and honestly,",
+          "tokens": [
+              51216,
+              5471,
+              575,
+              281,
+              362,
+              257,
+              21512,
+              11,
+              257,
+              4334,
+              4399,
+              445,
+              6741,
+              11,
+              293,
+              6095,
+              11,
+              51476
+          ],
+          "temperature": 0,
+          "avg_logprob": -0.19372351467609406,
+          "compression_ratio": 1.6722408533096313,
+          "no_speech_prob": 0.03846096247434616
+      },
+      {
+          "id": 10,
+          "seek": 2654,
+          "start": 49.41999816894531,
+          "end": 54.20000076293945,
+          "text": " it's killing the joy out of everything. The thing that made hobbies special was that they",
+          "tokens": [
+              51504,
+              309,
+              311,
+              8011,
+              264,
+              6258,
+              484,
+              295,
+              1203,
+              13,
+              440,
+              551,
+              300,
+              1027,
+              35750,
+              2121,
+              390,
+              300,
+              436,
+              51740
+          ],
+          "temperature": 0,
+          "avg_logprob": -0.19372351467609406,
+          "compression_ratio": 1.6722408533096313,
+          "no_speech_prob": 0.03846096247434616
+      },
+      {
+          "id": 11,
+          "seek": 5420,
+          "start": 54.20000076293945,
+          "end": 58.439998626708984,
+          "text": " were the one area of your life where you could be terrible at something and it didn't matter,",
+          "tokens": [
+              50364,
+              645,
+              264,
+              472,
+              1859,
+              295,
+              428,
+              993,
+              689,
+              291,
+              727,
+              312,
+              6237,
+              412,
+              746,
+              293,
+              309,
+              994,
+              380,
+              1871,
+              11,
+              50600
+          ],
+          "temperature": 0,
+          "avg_logprob": -0.17958717048168182,
+          "compression_ratio": 1.6617647409439087,
+          "no_speech_prob": 0.04271857813000679
+      },
+      {
+          "id": 12,
+          "seek": 5420,
+          "start": 59.119998931884766,
+          "end": 63.81999969482422,
+          "text": " where you could experiment, mess up, try weird stuff, and there were no consequences because",
+          "tokens": [
+              50600,
+              689,
+              291,
+              727,
+              5120,
+              11,
+              2082,
+              493,
+              11,
+              853,
+              3657,
+              1507,
+              11,
+              293,
+              456,
+              645,
+              572,
+              10098,
+              570,
+              50848
+          ],
+          "temperature": 0,
+          "avg_logprob": -0.17958717048168182,
+          "compression_ratio": 1.6617647409439087,
+          "no_speech_prob": 0.04271857813000679
+      },
+      {
+          "id": 13,
+          "seek": 5420,
+          "start": 63.81999969482422,
+          "end": 68.77999877929688,
+          "text": " it was just for you. Now we're tracking our progress, setting goals, comparing ourselves",
+          "tokens": [
+              50848,
+              309,
+              390,
+              445,
+              337,
+              291,
+              13,
+              823,
+              321,
+              434,
+              11603,
+              527,
+              4205,
+              11,
+              3287,
+              5493,
+              11,
+              15763,
+              4175,
+              51092
+          ],
+          "temperature": 0,
+          "avg_logprob": -0.17958717048168182,
+          "compression_ratio": 1.6617647409439087,
+          "no_speech_prob": 0.04271857813000679
+      },
+      {
+          "id": 14,
+          "seek": 5420,
+          "start": 68.77999877929688,
+          "end": 73.66000366210938,
+          "text": " to others online, treating our free time like it's another job we're not getting paid for.",
+          "tokens": [
+              51092,
+              281,
+              2357,
+              2950,
+              11,
+              15083,
+              527,
+              1737,
+              565,
+              411,
+              309,
+              311,
+              1071,
+              1691,
+              321,
+              434,
+              406,
+              1242,
+              4835,
+              337,
+              13,
+              51328
+          ],
+          "temperature": 0,
+          "avg_logprob": -0.17958717048168182,
+          "compression_ratio": 1.6617647409439087,
+          "no_speech_prob": 0.04271857813000679
+      },
+      {
+          "id": 15,
+          "seek": 5420,
+          "start": 74.30000305175781,
+          "end": 78.68000030517578,
+          "text": " We've infected our downtime with the same productivity mindset that already dominates",
+          "tokens": [
+              51360,
+              492,
+              600,
+              15414,
+              527,
+              49648,
+              365,
+              264,
+              912,
+              15604,
+              12543,
+              300,
+              1217,
+              8859,
+              1024,
+              51588
+          ],
+          "temperature": 0,
+          "avg_logprob": -0.17958717048168182,
+          "compression_ratio": 1.6617647409439087,
+          "no_speech_prob": 0.04271857813000679
+      },
+      {
+          "id": 16,
+          "seek": 7868,
+          "start": 78.68000030517578,
+          "end": 84.04000091552734,
+          "text": " everything else. I see this constantly with creative stuff. Someone starts making beats",
+          "tokens": [
+              50364,
+              1203,
+              1646,
+              13,
+              286,
+              536,
+              341,
+              6460,
+              365,
+              5880,
+              1507,
+              13,
+              8734,
+              3719,
+              1455,
+              16447,
+              50632
+          ],
+          "temperature": 0,
+          "avg_logprob": -0.20691780745983124,
+          "compression_ratio": 1.6315789222717285,
+          "no_speech_prob": 0.3207271993160248
+      },
+      {
+          "id": 17,
+          "seek": 7868,
+          "start": 84.04000091552734,
+          "end": 89.19999694824219,
+          "text": " because they think it might be fun, but within a week they're watching YouTube tutorials on",
+          "tokens": [
+              50632,
+              570,
+              436,
+              519,
+              309,
+              1062,
+              312,
+              1019,
+              11,
+              457,
+              1951,
+              257,
+              1243,
+              436,
+              434,
+              1976,
+              3088,
+              17616,
+              322,
+              50900
+          ],
+          "temperature": 0,
+          "avg_logprob": -0.20691780745983124,
+          "compression_ratio": 1.6315789222717285,
+          "no_speech_prob": 0.3207271993160248
+      },
+      {
+          "id": 18,
+          "seek": 7868,
+          "start": 89.19999694824219,
+          "end": 94.94000244140625,
+          "text": " the producer mindset and building your brand as a beat maker. They haven't even finished their",
+          "tokens": [
+              50900,
+              264,
+              12314,
+              12543,
+              293,
+              2390,
+              428,
+              3360,
+              382,
+              257,
+              4224,
+              17127,
+              13,
+              814,
+              2378,
+              380,
+              754,
+              4335,
+              641,
+              51172
+          ],
+          "temperature": 0,
+          "avg_logprob": -0.20691780745983124,
+          "compression_ratio": 1.6315789222717285,
+          "no_speech_prob": 0.3207271993160248
+      },
+      {
+          "id": 19,
+          "seek": 7868,
+          "start": 94.94000244140625,
+          "end": 99.66000366210938,
+          "text": " first track and they're already thinking about SoundCloud followers and getting signed to a label",
+          "tokens": [
+              51172,
+              700,
+              2837,
+              293,
+              436,
+              434,
+              1217,
+              1953,
+              466,
+              14673,
+              32787,
+              13071,
+              293,
+              1242,
+              8175,
+              281,
+              257,
+              7645,
+              51428
+          ],
+          "temperature": 0,
+          "avg_logprob": -0.20691780745983124,
+          "compression_ratio": 1.6315789222717285,
+          "no_speech_prob": 0.3207271993160248
+      },
+      {
+          "id": 20,
+          "seek": 7868,
+          "start": 99.66000366210938,
+          "end": 105.16000366210938,
+          "text": " or painting. People download Procreate to mess around with digital art, but suddenly they're",
+          "tokens": [
+              51428,
+              420,
+              5370,
+              13,
+              3432,
+              5484,
+              1705,
+              14066,
+              473,
+              281,
+              2082,
+              926,
+              365,
+              4562,
+              1523,
+              11,
+              457,
+              5800,
+              436,
+              434,
+              51688
+          ],
+          "temperature": 0,
+          "avg_logprob": -0.20691780745983124,
+          "compression_ratio": 1.6315789222717285,
+          "no_speech_prob": 0.3207271993160248
+      },
+      {
+          "id": 21,
+          "seek": 10532,
+          "start": 105.31999969482422,
+          "end": 110.69999694824219,
+          "text": " researching brush settings and watching speedpaint tutorials, and feeling frustrated because their",
+          "tokens": [
+              50364,
+              24176,
+              5287,
+              6257,
+              293,
+              1976,
+              3073,
+              79,
+              5114,
+              17616,
+              11,
+              293,
+              2633,
+              15751,
+              570,
+              641,
+              50624
+          ],
+          "temperature": 0,
+          "avg_logprob": -0.21938775479793549,
+          "compression_ratio": 1.6245733499526978,
+          "no_speech_prob": 0.26574307680130005
+      },
+      {
+          "id": 22,
+          "seek": 10532,
+          "start": 110.69999694824219,
+          "end": 116.05999755859375,
+          "text": " stuff doesn't look like what they see online. The experimentation phase gets skipped entirely.",
+          "tokens": [
+              50624,
+              1507,
+              1177,
+              380,
+              574,
+              411,
+              437,
+              436,
+              536,
+              2950,
+              13,
+              440,
+              37142,
+              5574,
+              2170,
+              30193,
+              7696,
+              13,
+              50920
+          ],
+          "temperature": 0,
+          "avg_logprob": -0.21938775479793549,
+          "compression_ratio": 1.6245733499526978,
+          "no_speech_prob": 0.26574307680130005
+      },
+      {
+          "id": 23,
+          "seek": 10532,
+          "start": 116.81999969482422,
+          "end": 122.4000015258789,
+          "text": " Social media obviously makes this worse. Everything becomes content. You can't just skateboard for the",
+          "tokens": [
+              50920,
+              9909,
+              3021,
+              2745,
+              1669,
+              341,
+              5324,
+              13,
+              5471,
+              3643,
+              2701,
+              13,
+              509,
+              393,
+              380,
+              445,
+              32204,
+              337,
+              264,
+              51204
+          ],
+          "temperature": 0,
+          "avg_logprob": -0.21938775479793549,
+          "compression_ratio": 1.6245733499526978,
+          "no_speech_prob": 0.26574307680130005
+      },
+      {
+          "id": 24,
+          "seek": 10532,
+          "start": 122.4000015258789,
+          "end": 127.30000305175781,
+          "text": " feeling of it. You should probably be filming tricks for TikTok. You can't just produce music",
+          "tokens": [
+              51204,
+              2633,
+              295,
+              309,
+              13,
+              509,
+              820,
+              1391,
+              312,
+              8869,
+              11733,
+              337,
+              20211,
+              13,
+              509,
+              393,
+              380,
+              445,
+              5258,
+              1318,
+              51464
+          ],
+          "temperature": 0,
+          "avg_logprob": -0.21938775479793549,
+          "compression_ratio": 1.6245733499526978,
+          "no_speech_prob": 0.26574307680130005
+      },
+      {
+          "id": 25,
+          "seek": 10532,
+          "start": 127.30000305175781,
+          "end": 132.9600067138672,
+          "text": " for yourself. Why not post those beats on Instagram? The act of documenting the hobby",
+          "tokens": [
+              51464,
+              337,
+              1803,
+              13,
+              1545,
+              406,
+              2183,
+              729,
+              16447,
+              322,
+              5281,
+              30,
+              440,
+              605,
+              295,
+              42360,
+              264,
+              18240,
+              51748
+          ],
+          "temperature": 0,
+          "avg_logprob": -0.21938775479793549,
+          "compression_ratio": 1.6245733499526978,
+          "no_speech_prob": 0.26574307680130005
+      },
+      {
+          "id": 26,
+          "seek": 13296,
+          "start": 132.9600067138672,
+          "end": 137.97999572753906,
+          "text": " becomes more important than actually enjoying the hobby. And then there's the productivity guilt.",
+          "tokens": [
+              50364,
+              3643,
+              544,
+              1021,
+              813,
+              767,
+              9929,
+              264,
+              18240,
+              13,
+              400,
+              550,
+              456,
+              311,
+              264,
+              15604,
+              20421,
+              13,
+              50612
+          ],
+          "temperature": 0,
+          "avg_logprob": -0.16987259685993195,
+          "compression_ratio": 1.6838487386703491,
+          "no_speech_prob": 0.009267464280128479
+      },
+      {
+          "id": 27,
+          "seek": 13296,
+          "start": 138.75999450683594,
+          "end": 145.13999938964844,
+          "text": " We live in a culture where rest feels irresponsible. If you're not hustling, grinding, building something,",
+          "tokens": [
+              50640,
+              492,
+              1621,
+              294,
+              257,
+              3713,
+              689,
+              1472,
+              3417,
+              46320,
+              13,
+              759,
+              291,
+              434,
+              406,
+              25822,
+              1688,
+              11,
+              25300,
+              11,
+              2390,
+              746,
+              11,
+              50984
+          ],
+          "temperature": 0,
+          "avg_logprob": -0.16987259685993195,
+          "compression_ratio": 1.6838487386703491,
+          "no_speech_prob": 0.009267464280128479
+      },
+      {
+          "id": 28,
+          "seek": 13296,
+          "start": 145.3800048828125,
+          "end": 150.52000427246094,
+          "text": " what are you even doing? Hobbies feel frivolous because they don't directly contribute to your",
+          "tokens": [
+              50984,
+              437,
+              366,
+              291,
+              754,
+              884,
+              30,
+              22966,
+              23177,
+              841,
+              431,
+              21356,
+              563,
+              570,
+              436,
+              500,
+              380,
+              3838,
+              10586,
+              281,
+              428,
+              51236
+          ],
+          "temperature": 0,
+          "avg_logprob": -0.16987259685993195,
+          "compression_ratio": 1.6838487386703491,
+          "no_speech_prob": 0.009267464280128479
+      },
+      {
+          "id": 29,
+          "seek": 13296,
+          "start": 150.52000427246094,
+          "end": 156,
+          "text": " career or your bank account or your personal development. But that's exactly the point. Hobbies",
+          "tokens": [
+              51236,
+              3988,
+              420,
+              428,
+              3765,
+              2696,
+              420,
+              428,
+              2973,
+              3250,
+              13,
+              583,
+              300,
+              311,
+              2293,
+              264,
+              935,
+              13,
+              22966,
+              23177,
+              51512
+          ],
+          "temperature": 0,
+          "avg_logprob": -0.16987259685993195,
+          "compression_ratio": 1.6838487386703491,
+          "no_speech_prob": 0.009267464280128479
+      },
+      {
+          "id": 30,
+          "seek": 13296,
+          "start": 156,
+          "end": 160.52000427246094,
+          "text": " aren't supposed to be productive. They're supposed to be the antidote to productivity culture,",
+          "tokens": [
+              51512,
+              3212,
+              380,
+              3442,
+              281,
+              312,
+              13304,
+              13,
+              814,
+              434,
+              3442,
+              281,
+              312,
+              264,
+              47962,
+              1370,
+              281,
+              15604,
+              3713,
+              11,
+              51760
+          ],
+          "temperature": 0,
+          "avg_logprob": -0.16987259685993195,
+          "compression_ratio": 1.6838487386703491,
+          "no_speech_prob": 0.009267464280128479
+      },
+      {
+          "id": 31,
+          "seek": 16052,
+          "start": 160.52000427246094,
+          "end": 165.6999969482422,
+          "text": " not another victim of it. When you make music just because certain sounds make you happy,",
+          "tokens": [
+              50380,
+              406,
+              1071,
+              6760,
+              295,
+              309,
+              13,
+              1133,
+              291,
+              652,
+              1318,
+              445,
+              570,
+              1629,
+              3263,
+              652,
+              291,
+              2055,
+              11,
+              50620
+          ],
+          "temperature": 0,
+          "avg_logprob": -0.16008523106575012,
+          "compression_ratio": 1.7035714387893677,
+          "no_speech_prob": 0.005910702049732208
+      },
+      {
+          "id": 32,
+          "seek": 16052,
+          "start": 166.22000122070312,
+          "end": 171.74000549316406,
+          "text": " when you paint just to see colors mixed together, when you skateboard just to feel the movement,",
+          "tokens": [
+              50652,
+              562,
+              291,
+              4225,
+              445,
+              281,
+              536,
+              4577,
+              7467,
+              1214,
+              11,
+              562,
+              291,
+              32204,
+              445,
+              281,
+              841,
+              264,
+              3963,
+              11,
+              50920
+          ],
+          "temperature": 0,
+          "avg_logprob": -0.16008523106575012,
+          "compression_ratio": 1.7035714387893677,
+          "no_speech_prob": 0.005910702049732208
+      },
+      {
+          "id": 33,
+          "seek": 16052,
+          "start": 172.33999633789062,
+          "end": 178.6199951171875,
+          "text": " that's not wasted time. That's your brain getting to play. That's you remembering what it feels like",
+          "tokens": [
+              50952,
+              300,
+              311,
+              406,
+              19496,
+              565,
+              13,
+              663,
+              311,
+              428,
+              3567,
+              1242,
+              281,
+              862,
+              13,
+              663,
+              311,
+              291,
+              20719,
+              437,
+              309,
+              3417,
+              411,
+              51264
+          ],
+          "temperature": 0,
+          "avg_logprob": -0.16008523106575012,
+          "compression_ratio": 1.7035714387893677,
+          "no_speech_prob": 0.005910702049732208
+      },
+      {
+          "id": 34,
+          "seek": 16052,
+          "start": 178.6199951171875,
+          "end": 183.36000061035156,
+          "text": " to be human instead of a productivity machine. We've convinced ourselves that if something",
+          "tokens": [
+              51264,
+              281,
+              312,
+              1952,
+              2602,
+              295,
+              257,
+              15604,
+              3479,
+              13,
+              492,
+              600,
+              12561,
+              4175,
+              300,
+              498,
+              746,
+              51504
+          ],
+          "temperature": 0,
+          "avg_logprob": -0.16008523106575012,
+          "compression_ratio": 1.7035714387893677,
+          "no_speech_prob": 0.005910702049732208
+      },
+      {
+          "id": 35,
+          "seek": 16052,
+          "start": 183.36000061035156,
+          "end": 189.82000732421875,
+          "text": " doesn't lead somewhere, it's pointless. But what if the point is just the doing? What if the value",
+          "tokens": [
+              51504,
+              1177,
+              380,
+              1477,
+              4079,
+              11,
+              309,
+              311,
+              32824,
+              13,
+              583,
+              437,
+              498,
+              264,
+              935,
+              307,
+              445,
+              264,
+              884,
+              30,
+              708,
+              498,
+              264,
+              2158,
+              51836
+          ],
+          "temperature": 0,
+          "avg_logprob": -0.16008523106575012,
+          "compression_ratio": 1.7035714387893677,
+          "no_speech_prob": 0.005910702049732208
+      },
+      {
+          "id": 36,
+          "seek": 18982,
+          "start": 189.82000732421875,
+          "end": 196.33999633789062,
+          "text": " is in the experience itself, not in any outcome or product you might create? We've made everything",
+          "tokens": [
+              50372,
+              307,
+              294,
+              264,
+              1752,
+              2564,
+              11,
+              406,
+              294,
+              604,
+              9700,
+              420,
+              1674,
+              291,
+              1062,
+              1884,
+              30,
+              492,
+              600,
+              1027,
+              1203,
+              50688
+          ],
+          "temperature": 0,
+          "avg_logprob": -0.16240334510803223,
+          "compression_ratio": 1.6741572618484497,
+          "no_speech_prob": 0.02404884621500969
+      },
+      {
+          "id": 37,
+          "seek": 18982,
+          "start": 196.33999633789062,
+          "end": 202.55999755859375,
+          "text": " into a potential side hustle. Every interest has to be justified through productivity or profit.",
+          "tokens": [
+              50688,
+              666,
+              257,
+              3995,
+              1252,
+              34639,
+              13,
+              2048,
+              1179,
+              575,
+              281,
+              312,
+              27808,
+              807,
+              15604,
+              420,
+              7475,
+              13,
+              51024
+          ],
+          "temperature": 0,
+          "avg_logprob": -0.16240334510803223,
+          "compression_ratio": 1.6741572618484497,
+          "no_speech_prob": 0.02404884621500969
+      },
+      {
+          "id": 38,
+          "seek": 18982,
+          "start": 203.13999938964844,
+          "end": 207.89999389648438,
+          "text": " But when every hobby becomes a business opportunity, we lose something essential",
+          "tokens": [
+              51024,
+              583,
+              562,
+              633,
+              18240,
+              3643,
+              257,
+              1606,
+              2650,
+              11,
+              321,
+              3624,
+              746,
+              7115,
+              51268
+          ],
+          "temperature": 0,
+          "avg_logprob": -0.16240334510803223,
+          "compression_ratio": 1.6741572618484497,
+          "no_speech_prob": 0.02404884621500969
+      },
+      {
+          "id": 39,
+          "seek": 18982,
+          "start": 207.89999389648438,
+          "end": 212.6199951171875,
+          "text": " about what makes them valuable in the first place. Your hobbies don't owe you anything.",
+          "tokens": [
+              51268,
+              466,
+              437,
+              1669,
+              552,
+              8263,
+              294,
+              264,
+              700,
+              1081,
+              13,
+              2260,
+              35750,
+              500,
+              380,
+              16655,
+              291,
+              1340,
+              13,
+              51524
+          ],
+          "temperature": 0,
+          "avg_logprob": -0.16240334510803223,
+          "compression_ratio": 1.6741572618484497,
+          "no_speech_prob": 0.02404884621500969
+      },
+      {
+          "id": 40,
+          "seek": 18982,
+          "start": 213.0399932861328,
+          "end": 216.55999755859375,
+          "text": " They don't have to make you money or make you better or make you more interesting.",
+          "tokens": [
+              51524,
+              814,
+              500,
+              380,
+              362,
+              281,
+              652,
+              291,
+              1460,
+              420,
+              652,
+              291,
+              1101,
+              420,
+              652,
+              291,
+              544,
+              1880,
+              13,
+              51704
+          ],
+          "temperature": 0,
+          "avg_logprob": -0.16240334510803223,
+          "compression_ratio": 1.6741572618484497,
+          "no_speech_prob": 0.02404884621500969
+      },
+      {
+          "id": 41,
+          "seek": 21656,
+          "start": 217.25999450683594,
+          "end": 222.27999877929688,
+          "text": " Sometimes the most radical thing you can do is just enjoy something for the sake of enjoying it.",
+          "tokens": [
+              50400,
+              4803,
+              264,
+              881,
+              12001,
+              551,
+              291,
+              393,
+              360,
+              307,
+              445,
+              2103,
+              746,
+              337,
+              264,
+              9717,
+              295,
+              9929,
+              309,
+              13,
+              50656
+          ],
+          "temperature": 0,
+          "avg_logprob": -0.22762922942638397,
+          "compression_ratio": 1.215189814567566,
+          "no_speech_prob": 0.14217408001422882
+      }
+  ],
+  "words": [
+      {
+          "word": "Something",
+          "start": 0,
+          "end": 0.6000000238418579
+      },
+      {
+          "word": "weird",
+          "start": 0.6000000238418579,
+          "end": 1.3600000143051147
+      },
+      {
+          "word": "has",
+          "start": 1.3600000143051147,
+          "end": 1.899999976158142
+      },
+      {
+          "word": "happened",
+          "start": 1.899999976158142,
+          "end": 1.899999976158142
+      },
+      {
+          "word": "to",
+          "start": 1.899999976158142,
+          "end": 2.5199999809265137
+      },
+      {
+          "word": "hobbies",
+          "start": 2.5199999809265137,
+          "end": 2.5199999809265137
+      },
+      {
+          "word": "They",
+          "start": 3.140000104904175,
+          "end": 3.200000047683716
+      },
+      {
+          "word": "don't",
+          "start": 3.200000047683716,
+          "end": 3.4200000762939453
+      },
+      {
+          "word": "feel",
+          "start": 3.4200000762939453,
+          "end": 3.7200000286102295
+      },
+      {
+          "word": "like",
+          "start": 3.7200000286102295,
+          "end": 4.260000228881836
+      },
+      {
+          "word": "hobbies",
+          "start": 4.260000228881836,
+          "end": 4.260000228881836
+      },
+      {
+          "word": "anymore",
+          "start": 4.260000228881836,
+          "end": 4.760000228881836
+      },
+      {
+          "word": "Whether",
+          "start": 5.519999980926514,
+          "end": 5.599999904632568
+      },
+      {
+          "word": "you're",
+          "start": 5.599999904632568,
+          "end": 5.840000152587891
+      },
+      {
+          "word": "into",
+          "start": 5.840000152587891,
+          "end": 6.119999885559082
+      },
+      {
+          "word": "music",
+          "start": 6.119999885559082,
+          "end": 6.5
+      },
+      {
+          "word": "production",
+          "start": 6.5,
+          "end": 7.039999961853027
+      },
+      {
+          "word": "skateboarding",
+          "start": 7.460000038146973,
+          "end": 8.119999885559082
+      },
+      {
+          "word": "painting",
+          "start": 8.319999694824219,
+          "end": 8.739999771118164
+      },
+      {
+          "word": "photography",
+          "start": 9,
+          "end": 9.539999961853027
+      },
+      {
+          "word": "or",
+          "start": 9.619999885559082,
+          "end": 10.100000381469727
+      },
+      {
+          "word": "filmmaking",
+          "start": 10.100000381469727,
+          "end": 10.460000038146973
+      },
+      {
+          "word": "our",
+          "start": 10.819999694824219,
+          "end": 11.34000015258789
+      },
+      {
+          "word": "culture",
+          "start": 11.34000015258789,
+          "end": 11.65999984741211
+      },
+      {
+          "word": "has",
+          "start": 11.65999984741211,
+          "end": 12
+      },
+      {
+          "word": "made",
+          "start": 12,
+          "end": 12.119999885559082
+      },
+      {
+          "word": "us",
+          "start": 12.119999885559082,
+          "end": 12.579999923706055
+      },
+      {
+          "word": "feel",
+          "start": 12.579999923706055,
+          "end": 12.579999923706055
+      },
+      {
+          "word": "like",
+          "start": 12.579999923706055,
+          "end": 12.84000015258789
+      },
+      {
+          "word": "this",
+          "start": 12.84000015258789,
+          "end": 13.180000305175781
+      },
+      {
+          "word": "recreation",
+          "start": 13.180000305175781,
+          "end": 13.819999694824219
+      },
+      {
+          "word": "time",
+          "start": 13.819999694824219,
+          "end": 14.279999732971191
+      },
+      {
+          "word": "is",
+          "start": 14.279999732971191,
+          "end": 14.460000038146973
+      },
+      {
+          "word": "a",
+          "start": 14.460000038146973,
+          "end": 15
+      },
+      {
+          "word": "waste",
+          "start": 15,
+          "end": 15
+      },
+      {
+          "word": "unless",
+          "start": 15,
+          "end": 15.420000076293945
+      },
+      {
+          "word": "it's",
+          "start": 15.420000076293945,
+          "end": 15.779999732971191
+      },
+      {
+          "word": "building",
+          "start": 15.779999732971191,
+          "end": 16.15999984741211
+      },
+      {
+          "word": "toward",
+          "start": 16.15999984741211,
+          "end": 16.459999084472656
+      },
+      {
+          "word": "something",
+          "start": 16.459999084472656,
+          "end": 16.979999542236328
+      },
+      {
+          "word": "bigger",
+          "start": 16.979999542236328,
+          "end": 17.3799991607666
+      },
+      {
+          "word": "You",
+          "start": 17.860000610351562,
+          "end": 17.959999084472656
+      },
+      {
+          "word": "can't",
+          "start": 17.959999084472656,
+          "end": 18.18000030517578
+      },
+      {
+          "word": "just",
+          "start": 18.18000030517578,
+          "end": 18.520000457763672
+      },
+      {
+          "word": "paint",
+          "start": 18.520000457763672,
+          "end": 18.68000030517578
+      },
+      {
+          "word": "anymore",
+          "start": 18.68000030517578,
+          "end": 19.139999389648438
+      },
+      {
+          "word": "You",
+          "start": 19.260000228881836,
+          "end": 19.6200008392334
+      },
+      {
+          "word": "have",
+          "start": 19.6200008392334,
+          "end": 19.780000686645508
+      },
+      {
+          "word": "to",
+          "start": 19.780000686645508,
+          "end": 19.899999618530273
+      },
+      {
+          "word": "be",
+          "start": 19.899999618530273,
+          "end": 20.5
+      },
+      {
+          "word": "developing",
+          "start": 20.5,
+          "end": 20.5
+      },
+      {
+          "word": "your",
+          "start": 20.5,
+          "end": 20.799999237060547
+      },
+      {
+          "word": "artistic",
+          "start": 20.799999237060547,
+          "end": 21.15999984741211
+      },
+      {
+          "word": "voice",
+          "start": 21.15999984741211,
+          "end": 21.6200008392334
+      },
+      {
+          "word": "You",
+          "start": 22,
+          "end": 22.1200008392334
+      },
+      {
+          "word": "can't",
+          "start": 22.1200008392334,
+          "end": 22.34000015258789
+      },
+      {
+          "word": "just",
+          "start": 22.34000015258789,
+          "end": 22.68000030517578
+      },
+      {
+          "word": "skateboard",
+          "start": 22.68000030517578,
+          "end": 22.979999542236328
+      },
+      {
+          "word": "You",
+          "start": 23.420000076293945,
+          "end": 23.559999465942383
+      },
+      {
+          "word": "have",
+          "start": 23.559999465942383,
+          "end": 23.700000762939453
+      },
+      {
+          "word": "to",
+          "start": 23.700000762939453,
+          "end": 23.799999237060547
+      },
+      {
+          "word": "be",
+          "start": 23.799999237060547,
+          "end": 24.059999465942383
+      },
+      {
+          "word": "progressing",
+          "start": 24.059999465942383,
+          "end": 24.399999618530273
+      },
+      {
+          "word": "filming",
+          "start": 25.040000915527344,
+          "end": 25.040000915527344
+      },
+      {
+          "word": "tricks",
+          "start": 25.040000915527344,
+          "end": 25.399999618530273
+      },
+      {
+          "word": "building",
+          "start": 25.84000015258789,
+          "end": 25.8799991607666
+      },
+      {
+          "word": "your",
+          "start": 25.8799991607666,
+          "end": 26.540000915527344
+      },
+      {
+          "word": "style",
+          "start": 26.540000915527344,
+          "end": 26.540000915527344
+      },
+      {
+          "word": "Photography",
+          "start": 26.540000915527344,
+          "end": 27.5
+      },
+      {
+          "word": "isn't",
+          "start": 27.5,
+          "end": 27.760000228881836
+      },
+      {
+          "word": "about",
+          "start": 27.760000228881836,
+          "end": 28.1200008392334
+      },
+      {
+          "word": "taking",
+          "start": 28.1200008392334,
+          "end": 28.399999618530273
+      },
+      {
+          "word": "pictures",
+          "start": 28.399999618530273,
+          "end": 28.780000686645508
+      },
+      {
+          "word": "you",
+          "start": 28.780000686645508,
+          "end": 29.079999923706055
+      },
+      {
+          "word": "like",
+          "start": 29.079999923706055,
+          "end": 29.280000686645508
+      },
+      {
+          "word": "It's",
+          "start": 29.739999771118164,
+          "end": 29.799999237060547
+      },
+      {
+          "word": "about",
+          "start": 29.799999237060547,
+          "end": 30.079999923706055
+      },
+      {
+          "word": "finding",
+          "start": 30.079999923706055,
+          "end": 30.34000015258789
+      },
+      {
+          "word": "your",
+          "start": 30.34000015258789,
+          "end": 30.8799991607666
+      },
+      {
+          "word": "niche",
+          "start": 30.8799991607666,
+          "end": 30.899999618530273
+      },
+      {
+          "word": "maybe",
+          "start": 31.360000610351562,
+          "end": 31.579999923706055
+      },
+      {
+          "word": "shooting",
+          "start": 31.579999923706055,
+          "end": 31.81999969482422
+      },
+      {
+          "word": "some",
+          "start": 31.81999969482422,
+          "end": 32.36000061035156
+      },
+      {
+          "word": "weddings",
+          "start": 32.36000061035156,
+          "end": 32.36000061035156
+      },
+      {
+          "word": "on",
+          "start": 32.36000061035156,
+          "end": 32.560001373291016
+      },
+      {
+          "word": "the",
+          "start": 32.560001373291016,
+          "end": 32.68000030517578
+      },
+      {
+          "word": "side",
+          "start": 32.68000030517578,
+          "end": 33.099998474121094
+      },
+      {
+          "word": "But",
+          "start": 33.5,
+          "end": 33.779998779296875
+      },
+      {
+          "word": "here's",
+          "start": 33.779998779296875,
+          "end": 34.060001373291016
+      },
+      {
+          "word": "what's",
+          "start": 34.060001373291016,
+          "end": 34.2400016784668
+      },
+      {
+          "word": "really",
+          "start": 34.2400016784668,
+          "end": 34.68000030517578
+      },
+      {
+          "word": "happening",
+          "start": 34.68000030517578,
+          "end": 34.79999923706055
+      },
+      {
+          "word": "We've",
+          "start": 35.459999084472656,
+          "end": 35.63999938964844
+      },
+      {
+          "word": "taken",
+          "start": 35.63999938964844,
+          "end": 35.7400016784668
+      },
+      {
+          "word": "everything",
+          "start": 35.7400016784668,
+          "end": 36.13999938964844
+      },
+      {
+          "word": "that",
+          "start": 36.13999938964844,
+          "end": 36.41999816894531
+      },
+      {
+          "word": "used",
+          "start": 36.41999816894531,
+          "end": 36.52000045776367
+      },
+      {
+          "word": "to",
+          "start": 36.52000045776367,
+          "end": 36.599998474121094
+      },
+      {
+          "word": "be",
+          "start": 36.599998474121094,
+          "end": 36.7599983215332
+      },
+      {
+          "word": "just",
+          "start": 36.7599983215332,
+          "end": 36.959999084472656
+      },
+      {
+          "word": "for",
+          "start": 36.959999084472656,
+          "end": 37.18000030517578
+      },
+      {
+          "word": "fun",
+          "start": 37.18000030517578,
+          "end": 37.459999084472656
+      },
+      {
+          "word": "and",
+          "start": 37.459999084472656,
+          "end": 37.7599983215332
+      },
+      {
+          "word": "turned",
+          "start": 37.7599983215332,
+          "end": 37.939998626708984
+      },
+      {
+          "word": "it",
+          "start": 37.939998626708984,
+          "end": 38.099998474121094
+      },
+      {
+          "word": "into",
+          "start": 38.099998474121094,
+          "end": 38.2400016784668
+      },
+      {
+          "word": "another",
+          "start": 38.2400016784668,
+          "end": 38.58000183105469
+      },
+      {
+          "word": "form",
+          "start": 38.58000183105469,
+          "end": 38.84000015258789
+      },
+      {
+          "word": "of",
+          "start": 38.84000015258789,
+          "end": 39.119998931884766
+      },
+      {
+          "word": "work",
+          "start": 39.119998931884766,
+          "end": 39.220001220703125
+      },
+      {
+          "word": "We've",
+          "start": 39.52000045776367,
+          "end": 40.02000045776367
+      },
+      {
+          "word": "lost",
+          "start": 40.02000045776367,
+          "end": 40.02000045776367
+      },
+      {
+          "word": "the",
+          "start": 40.02000045776367,
+          "end": 40.619998931884766
+      },
+      {
+          "word": "ability",
+          "start": 40.619998931884766,
+          "end": 40.619998931884766
+      },
+      {
+          "word": "to",
+          "start": 40.619998931884766,
+          "end": 40.84000015258789
+      },
+      {
+          "word": "do",
+          "start": 40.84000015258789,
+          "end": 41.060001373291016
+      },
+      {
+          "word": "something",
+          "start": 41.060001373291016,
+          "end": 41.36000061035156
+      },
+      {
+          "word": "just",
+          "start": 41.36000061035156,
+          "end": 41.70000076293945
+      },
+      {
+          "word": "because",
+          "start": 41.70000076293945,
+          "end": 41.959999084472656
+      },
+      {
+          "word": "it",
+          "start": 41.959999084472656,
+          "end": 42.20000076293945
+      },
+      {
+          "word": "feels",
+          "start": 42.20000076293945,
+          "end": 42.439998626708984
+      },
+      {
+          "word": "good",
+          "start": 42.439998626708984,
+          "end": 42.68000030517578
+      },
+      {
+          "word": "to",
+          "start": 42.68000030517578,
+          "end": 42.880001068115234
+      },
+      {
+          "word": "do",
+          "start": 42.880001068115234,
+          "end": 43
+      },
+      {
+          "word": "it",
+          "start": 43,
+          "end": 43.41999816894531
+      },
+      {
+          "word": "Everything",
+          "start": 43.720001220703125,
+          "end": 44.040000915527344
+      },
+      {
+          "word": "has",
+          "start": 44.040000915527344,
+          "end": 44.36000061035156
+      },
+      {
+          "word": "to",
+          "start": 44.36000061035156,
+          "end": 44.52000045776367
+      },
+      {
+          "word": "have",
+          "start": 44.52000045776367,
+          "end": 44.65999984741211
+      },
+      {
+          "word": "a",
+          "start": 44.65999984741211,
+          "end": 44.900001525878906
+      },
+      {
+          "word": "trajectory",
+          "start": 44.900001525878906,
+          "end": 45.29999923706055
+      },
+      {
+          "word": "a",
+          "start": 45.86000061035156,
+          "end": 46.41999816894531
+      },
+      {
+          "word": "purpose",
+          "start": 46.41999816894531,
+          "end": 46.41999816894531
+      },
+      {
+          "word": "beyond",
+          "start": 46.41999816894531,
+          "end": 46.779998779296875
+      },
+      {
+          "word": "just",
+          "start": 46.779998779296875,
+          "end": 47.2400016784668
+      },
+      {
+          "word": "existing",
+          "start": 47.2400016784668,
+          "end": 47.619998931884766
+      },
+      {
+          "word": "and",
+          "start": 47.779998779296875,
+          "end": 48.400001525878906
+      },
+      {
+          "word": "honestly",
+          "start": 48.400001525878906,
+          "end": 48.81999969482422
+      },
+      {
+          "word": "it's",
+          "start": 49.41999816894531,
+          "end": 49.7400016784668
+      },
+      {
+          "word": "killing",
+          "start": 49.7400016784668,
+          "end": 49.97999954223633
+      },
+      {
+          "word": "the",
+          "start": 49.97999954223633,
+          "end": 50.439998626708984
+      },
+      {
+          "word": "joy",
+          "start": 50.439998626708984,
+          "end": 50.47999954223633
+      },
+      {
+          "word": "out",
+          "start": 50.47999954223633,
+          "end": 50.68000030517578
+      },
+      {
+          "word": "of",
+          "start": 50.68000030517578,
+          "end": 51.02000045776367
+      },
+      {
+          "word": "everything",
+          "start": 51.02000045776367,
+          "end": 51.2599983215332
+      },
+      {
+          "word": "The",
+          "start": 51.400001525878906,
+          "end": 51.86000061035156
+      },
+      {
+          "word": "thing",
+          "start": 51.86000061035156,
+          "end": 52.099998474121094
+      },
+      {
+          "word": "that",
+          "start": 52.099998474121094,
+          "end": 52.34000015258789
+      },
+      {
+          "word": "made",
+          "start": 52.34000015258789,
+          "end": 52.560001373291016
+      },
+      {
+          "word": "hobbies",
+          "start": 52.560001373291016,
+          "end": 52.91999816894531
+      },
+      {
+          "word": "special",
+          "start": 52.91999816894531,
+          "end": 53.459999084472656
+      },
+      {
+          "word": "was",
+          "start": 53.459999084472656,
+          "end": 53.86000061035156
+      },
+      {
+          "word": "that",
+          "start": 53.86000061035156,
+          "end": 54.040000915527344
+      },
+      {
+          "word": "they",
+          "start": 54.040000915527344,
+          "end": 54.20000076293945
+      },
+      {
+          "word": "were",
+          "start": 54.20000076293945,
+          "end": 54.34000015258789
+      },
+      {
+          "word": "the",
+          "start": 54.34000015258789,
+          "end": 54.439998626708984
+      },
+      {
+          "word": "one",
+          "start": 54.439998626708984,
+          "end": 54.880001068115234
+      },
+      {
+          "word": "area",
+          "start": 54.880001068115234,
+          "end": 55.099998474121094
+      },
+      {
+          "word": "of",
+          "start": 55.099998474121094,
+          "end": 55.31999969482422
+      },
+      {
+          "word": "your",
+          "start": 55.31999969482422,
+          "end": 55.5
+      },
+      {
+          "word": "life",
+          "start": 55.5,
+          "end": 55.779998779296875
+      },
+      {
+          "word": "where",
+          "start": 55.779998779296875,
+          "end": 56
+      },
+      {
+          "word": "you",
+          "start": 56,
+          "end": 56.119998931884766
+      },
+      {
+          "word": "could",
+          "start": 56.119998931884766,
+          "end": 56.2599983215332
+      },
+      {
+          "word": "be",
+          "start": 56.2599983215332,
+          "end": 56.599998474121094
+      },
+      {
+          "word": "terrible",
+          "start": 56.599998474121094,
+          "end": 56.79999923706055
+      },
+      {
+          "word": "at",
+          "start": 56.79999923706055,
+          "end": 57.15999984741211
+      },
+      {
+          "word": "something",
+          "start": 57.15999984741211,
+          "end": 57.47999954223633
+      },
+      {
+          "word": "and",
+          "start": 57.47999954223633,
+          "end": 57.720001220703125
+      },
+      {
+          "word": "it",
+          "start": 57.720001220703125,
+          "end": 57.939998626708984
+      },
+      {
+          "word": "didn't",
+          "start": 57.939998626708984,
+          "end": 58.15999984741211
+      },
+      {
+          "word": "matter",
+          "start": 58.15999984741211,
+          "end": 58.439998626708984
+      },
+      {
+          "word": "where",
+          "start": 59.119998931884766,
+          "end": 59.18000030517578
+      },
+      {
+          "word": "you",
+          "start": 59.18000030517578,
+          "end": 59.31999969482422
+      },
+      {
+          "word": "could",
+          "start": 59.31999969482422,
+          "end": 59.58000183105469
+      },
+      {
+          "word": "experiment",
+          "start": 59.58000183105469,
+          "end": 60.02000045776367
+      },
+      {
+          "word": "mess",
+          "start": 60.58000183105469,
+          "end": 60.58000183105469
+      },
+      {
+          "word": "up",
+          "start": 60.58000183105469,
+          "end": 60.81999969482422
+      },
+      {
+          "word": "try",
+          "start": 61.099998474121094,
+          "end": 61.15999984741211
+      },
+      {
+          "word": "weird",
+          "start": 61.15999984741211,
+          "end": 61.5
+      },
+      {
+          "word": "stuff",
+          "start": 61.5,
+          "end": 61.84000015258789
+      },
+      {
+          "word": "and",
+          "start": 61.84000015258789,
+          "end": 62.29999923706055
+      },
+      {
+          "word": "there",
+          "start": 62.29999923706055,
+          "end": 62.41999816894531
+      },
+      {
+          "word": "were",
+          "start": 62.41999816894531,
+          "end": 62.58000183105469
+      },
+      {
+          "word": "no",
+          "start": 62.58000183105469,
+          "end": 62.939998626708984
+      },
+      {
+          "word": "consequences",
+          "start": 62.939998626708984,
+          "end": 63.36000061035156
+      },
+      {
+          "word": "because",
+          "start": 63.36000061035156,
+          "end": 63.81999969482422
+      },
+      {
+          "word": "it",
+          "start": 63.81999969482422,
+          "end": 64.0199966430664
+      },
+      {
+          "word": "was",
+          "start": 64.0199966430664,
+          "end": 64.22000122070312
+      },
+      {
+          "word": "just",
+          "start": 64.22000122070312,
+          "end": 64.4800033569336
+      },
+      {
+          "word": "for",
+          "start": 64.4800033569336,
+          "end": 64.76000213623047
+      },
+      {
+          "word": "you",
+          "start": 64.76000213623047,
+          "end": 64.9800033569336
+      },
+      {
+          "word": "Now",
+          "start": 65.4000015258789,
+          "end": 65.5199966430664
+      },
+      {
+          "word": "we're",
+          "start": 65.5199966430664,
+          "end": 65.72000122070312
+      },
+      {
+          "word": "tracking",
+          "start": 65.72000122070312,
+          "end": 66.0199966430664
+      },
+      {
+          "word": "our",
+          "start": 66.0199966430664,
+          "end": 66.81999969482422
+      },
+      {
+          "word": "progress",
+          "start": 66.81999969482422,
+          "end": 66.81999969482422
+      },
+      {
+          "word": "setting",
+          "start": 67.23999786376953,
+          "end": 67.36000061035156
+      },
+      {
+          "word": "goals",
+          "start": 67.36000061035156,
+          "end": 67.76000213623047
+      },
+      {
+          "word": "comparing",
+          "start": 68.37999725341797,
+          "end": 68.37999725341797
+      },
+      {
+          "word": "ourselves",
+          "start": 68.37999725341797,
+          "end": 68.77999877929688
+      },
+      {
+          "word": "to",
+          "start": 68.77999877929688,
+          "end": 69.33999633789062
+      },
+      {
+          "word": "others",
+          "start": 69.33999633789062,
+          "end": 69.33999633789062
+      },
+      {
+          "word": "online",
+          "start": 69.33999633789062,
+          "end": 69.9000015258789
+      },
+      {
+          "word": "treating",
+          "start": 70.41999816894531,
+          "end": 70.41999816894531
+      },
+      {
+          "word": "our",
+          "start": 70.41999816894531,
+          "end": 70.73999786376953
+      },
+      {
+          "word": "free",
+          "start": 70.73999786376953,
+          "end": 71.0199966430664
+      },
+      {
+          "word": "time",
+          "start": 71.0199966430664,
+          "end": 71.26000213623047
+      },
+      {
+          "word": "like",
+          "start": 71.26000213623047,
+          "end": 71.5
+      },
+      {
+          "word": "it's",
+          "start": 71.5,
+          "end": 71.72000122070312
+      },
+      {
+          "word": "another",
+          "start": 71.72000122070312,
+          "end": 72
+      },
+      {
+          "word": "job",
+          "start": 72,
+          "end": 72.33999633789062
+      },
+      {
+          "word": "we're",
+          "start": 72.33999633789062,
+          "end": 72.54000091552734
+      },
+      {
+          "word": "not",
+          "start": 72.54000091552734,
+          "end": 72.72000122070312
+      },
+      {
+          "word": "getting",
+          "start": 72.72000122070312,
+          "end": 73.0199966430664
+      },
+      {
+          "word": "paid",
+          "start": 73.0199966430664,
+          "end": 73.22000122070312
+      },
+      {
+          "word": "for",
+          "start": 73.22000122070312,
+          "end": 73.66000366210938
+      },
+      {
+          "word": "We've",
+          "start": 74.30000305175781,
+          "end": 74.86000061035156
+      },
+      {
+          "word": "infected",
+          "start": 74.86000061035156,
+          "end": 74.86000061035156
+      },
+      {
+          "word": "our",
+          "start": 74.86000061035156,
+          "end": 75.18000030517578
+      },
+      {
+          "word": "downtime",
+          "start": 75.18000030517578,
+          "end": 75.5
+      },
+      {
+          "word": "with",
+          "start": 75.5,
+          "end": 75.87999725341797
+      },
+      {
+          "word": "the",
+          "start": 75.87999725341797,
+          "end": 76.05999755859375
+      },
+      {
+          "word": "same",
+          "start": 76.05999755859375,
+          "end": 76.37999725341797
+      },
+      {
+          "word": "productivity",
+          "start": 76.37999725341797,
+          "end": 76.9000015258789
+      },
+      {
+          "word": "mindset",
+          "start": 76.9000015258789,
+          "end": 77.36000061035156
+      },
+      {
+          "word": "that",
+          "start": 77.36000061035156,
+          "end": 77.73999786376953
+      },
+      {
+          "word": "already",
+          "start": 77.73999786376953,
+          "end": 78.4000015258789
+      },
+      {
+          "word": "dominates",
+          "start": 78.4000015258789,
+          "end": 78.68000030517578
+      },
+      {
+          "word": "everything",
+          "start": 78.68000030517578,
+          "end": 79.12000274658203
+      },
+      {
+          "word": "else",
+          "start": 79.12000274658203,
+          "end": 79.55999755859375
+      },
+      {
+          "word": "I",
+          "start": 79.9000015258789,
+          "end": 80.08000183105469
+      },
+      {
+          "word": "see",
+          "start": 80.08000183105469,
+          "end": 80.26000213623047
+      },
+      {
+          "word": "this",
+          "start": 80.26000213623047,
+          "end": 80.58000183105469
+      },
+      {
+          "word": "constantly",
+          "start": 80.58000183105469,
+          "end": 81.0999984741211
+      },
+      {
+          "word": "with",
+          "start": 81.0999984741211,
+          "end": 81.5
+      },
+      {
+          "word": "creative",
+          "start": 81.5,
+          "end": 81.9000015258789
+      },
+      {
+          "word": "stuff",
+          "start": 81.9000015258789,
+          "end": 82.30000305175781
+      },
+      {
+          "word": "Someone",
+          "start": 83.12000274658203,
+          "end": 83.12000274658203
+      },
+      {
+          "word": "starts",
+          "start": 83.12000274658203,
+          "end": 83.4000015258789
+      },
+      {
+          "word": "making",
+          "start": 83.4000015258789,
+          "end": 83.73999786376953
+      },
+      {
+          "word": "beats",
+          "start": 83.73999786376953,
+          "end": 84.04000091552734
+      },
+      {
+          "word": "because",
+          "start": 84.04000091552734,
+          "end": 84.33999633789062
+      },
+      {
+          "word": "they",
+          "start": 84.33999633789062,
+          "end": 84.5999984741211
+      },
+      {
+          "word": "think",
+          "start": 84.5999984741211,
+          "end": 84.80000305175781
+      },
+      {
+          "word": "it",
+          "start": 84.80000305175781,
+          "end": 84.95999908447266
+      },
+      {
+          "word": "might",
+          "start": 84.95999908447266,
+          "end": 85.13999938964844
+      },
+      {
+          "word": "be",
+          "start": 85.13999938964844,
+          "end": 85.37999725341797
+      },
+      {
+          "word": "fun",
+          "start": 85.37999725341797,
+          "end": 85.66000366210938
+      },
+      {
+          "word": "but",
+          "start": 85.73999786376953,
+          "end": 86.37999725341797
+      },
+      {
+          "word": "within",
+          "start": 86.37999725341797,
+          "end": 86.5199966430664
+      },
+      {
+          "word": "a",
+          "start": 86.5199966430664,
+          "end": 87
+      },
+      {
+          "word": "week",
+          "start": 87,
+          "end": 87
+      },
+      {
+          "word": "they're",
+          "start": 87,
+          "end": 87.37999725341797
+      },
+      {
+          "word": "watching",
+          "start": 87.37999725341797,
+          "end": 87.63999938964844
+      },
+      {
+          "word": "YouTube",
+          "start": 87.63999938964844,
+          "end": 88.16000366210938
+      },
+      {
+          "word": "tutorials",
+          "start": 88.16000366210938,
+          "end": 88.62000274658203
+      },
+      {
+          "word": "on",
+          "start": 88.62000274658203,
+          "end": 89.19999694824219
+      },
+      {
+          "word": "the",
+          "start": 89.19999694824219,
+          "end": 89.68000030517578
+      },
+      {
+          "word": "producer",
+          "start": 89.68000030517578,
+          "end": 90.0999984741211
+      },
+      {
+          "word": "mindset",
+          "start": 90.0999984741211,
+          "end": 90.54000091552734
+      },
+      {
+          "word": "and",
+          "start": 90.54000091552734,
+          "end": 91.27999877929688
+      },
+      {
+          "word": "building",
+          "start": 91.27999877929688,
+          "end": 91.5
+      },
+      {
+          "word": "your",
+          "start": 91.5,
+          "end": 91.80000305175781
+      },
+      {
+          "word": "brand",
+          "start": 91.80000305175781,
+          "end": 92
+      },
+      {
+          "word": "as",
+          "start": 92,
+          "end": 92.22000122070312
+      },
+      {
+          "word": "a",
+          "start": 92.22000122070312,
+          "end": 92.4000015258789
+      },
+      {
+          "word": "beat",
+          "start": 92.4000015258789,
+          "end": 92.55999755859375
+      },
+      {
+          "word": "maker",
+          "start": 92.55999755859375,
+          "end": 92.81999969482422
+      },
+      {
+          "word": "They",
+          "start": 93.26000213623047,
+          "end": 93.81999969482422
+      },
+      {
+          "word": "haven't",
+          "start": 93.81999969482422,
+          "end": 94.05999755859375
+      },
+      {
+          "word": "even",
+          "start": 94.05999755859375,
+          "end": 94.44000244140625
+      },
+      {
+          "word": "finished",
+          "start": 94.44000244140625,
+          "end": 94.66000366210938
+      },
+      {
+          "word": "their",
+          "start": 94.66000366210938,
+          "end": 94.94000244140625
+      },
+      {
+          "word": "first",
+          "start": 94.94000244140625,
+          "end": 95.26000213623047
+      },
+      {
+          "word": "track",
+          "start": 95.26000213623047,
+          "end": 95.63999938964844
+      },
+      {
+          "word": "and",
+          "start": 95.63999938964844,
+          "end": 96.12000274658203
+      },
+      {
+          "word": "they're",
+          "start": 96.12000274658203,
+          "end": 96.30000305175781
+      },
+      {
+          "word": "already",
+          "start": 96.30000305175781,
+          "end": 96.66000366210938
+      },
+      {
+          "word": "thinking",
+          "start": 96.66000366210938,
+          "end": 96.9000015258789
+      },
+      {
+          "word": "about",
+          "start": 96.9000015258789,
+          "end": 97.30000305175781
+      },
+      {
+          "word": "SoundCloud",
+          "start": 97.30000305175781,
+          "end": 97.72000122070312
+      },
+      {
+          "word": "followers",
+          "start": 97.72000122070312,
+          "end": 98.19999694824219
+      },
+      {
+          "word": "and",
+          "start": 98.19999694824219,
+          "end": 98.54000091552734
+      },
+      {
+          "word": "getting",
+          "start": 98.54000091552734,
+          "end": 98.72000122070312
+      },
+      {
+          "word": "signed",
+          "start": 98.72000122070312,
+          "end": 99.04000091552734
+      },
+      {
+          "word": "to",
+          "start": 99.04000091552734,
+          "end": 99.22000122070312
+      },
+      {
+          "word": "a",
+          "start": 99.22000122070312,
+          "end": 99.66000366210938
+      },
+      {
+          "word": "label",
+          "start": 99.66000366210938,
+          "end": 99.66000366210938
+      },
+      {
+          "word": "or",
+          "start": 99.66000366210938,
+          "end": 100.30000305175781
+      },
+      {
+          "word": "painting",
+          "start": 100.30000305175781,
+          "end": 100.68000030517578
+      },
+      {
+          "word": "People",
+          "start": 101.44000244140625,
+          "end": 101.44000244140625
+      },
+      {
+          "word": "download",
+          "start": 101.44000244140625,
+          "end": 101.86000061035156
+      },
+      {
+          "word": "Procreate",
+          "start": 101.86000061035156,
+          "end": 102.31999969482422
+      },
+      {
+          "word": "to",
+          "start": 102.31999969482422,
+          "end": 102.9000015258789
+      },
+      {
+          "word": "mess",
+          "start": 102.9000015258789,
+          "end": 102.9000015258789
+      },
+      {
+          "word": "around",
+          "start": 102.9000015258789,
+          "end": 103.13999938964844
+      },
+      {
+          "word": "with",
+          "start": 103.13999938964844,
+          "end": 103.41999816894531
+      },
+      {
+          "word": "digital",
+          "start": 103.41999816894531,
+          "end": 103.69999694824219
+      },
+      {
+          "word": "art",
+          "start": 103.69999694824219,
+          "end": 104.08000183105469
+      },
+      {
+          "word": "but",
+          "start": 104.0999984741211,
+          "end": 104.73999786376953
+      },
+      {
+          "word": "suddenly",
+          "start": 104.73999786376953,
+          "end": 104.9800033569336
+      },
+      {
+          "word": "they're",
+          "start": 104.9800033569336,
+          "end": 105.31999969482422
+      },
+      {
+          "word": "researching",
+          "start": 105.31999969482422,
+          "end": 105.80000305175781
+      },
+      {
+          "word": "brush",
+          "start": 105.80000305175781,
+          "end": 106.13999938964844
+      },
+      {
+          "word": "settings",
+          "start": 106.13999938964844,
+          "end": 106.44000244140625
+      },
+      {
+          "word": "and",
+          "start": 106.44000244140625,
+          "end": 106.76000213623047
+      },
+      {
+          "word": "watching",
+          "start": 106.76000213623047,
+          "end": 107.05999755859375
+      },
+      {
+          "word": "speedpaint",
+          "start": 107.05999755859375,
+          "end": 107.68000030517578
+      },
+      {
+          "word": "tutorials",
+          "start": 107.68000030517578,
+          "end": 108.33999633789062
+      },
+      {
+          "word": "and",
+          "start": 109.04000091552734,
+          "end": 109.12000274658203
+      },
+      {
+          "word": "feeling",
+          "start": 109.12000274658203,
+          "end": 109.41999816894531
+      },
+      {
+          "word": "frustrated",
+          "start": 109.41999816894531,
+          "end": 109.94000244140625
+      },
+      {
+          "word": "because",
+          "start": 109.94000244140625,
+          "end": 110.33999633789062
+      },
+      {
+          "word": "their",
+          "start": 110.33999633789062,
+          "end": 110.69999694824219
+      },
+      {
+          "word": "stuff",
+          "start": 110.69999694824219,
+          "end": 110.87999725341797
+      },
+      {
+          "word": "doesn't",
+          "start": 110.87999725341797,
+          "end": 111.13999938964844
+      },
+      {
+          "word": "look",
+          "start": 111.13999938964844,
+          "end": 111.36000061035156
+      },
+      {
+          "word": "like",
+          "start": 111.36000061035156,
+          "end": 111.58000183105469
+      },
+      {
+          "word": "what",
+          "start": 111.58000183105469,
+          "end": 111.72000122070312
+      },
+      {
+          "word": "they",
+          "start": 111.72000122070312,
+          "end": 111.87999725341797
+      },
+      {
+          "word": "see",
+          "start": 111.87999725341797,
+          "end": 112.12000274658203
+      },
+      {
+          "word": "online",
+          "start": 112.12000274658203,
+          "end": 112.55999755859375
+      },
+      {
+          "word": "The",
+          "start": 113.27999877929688,
+          "end": 113.55999755859375
+      },
+      {
+          "word": "experimentation",
+          "start": 113.55999755859375,
+          "end": 114.23999786376953
+      },
+      {
+          "word": "phase",
+          "start": 114.23999786376953,
+          "end": 114.72000122070312
+      },
+      {
+          "word": "gets",
+          "start": 114.72000122070312,
+          "end": 115.08000183105469
+      },
+      {
+          "word": "skipped",
+          "start": 115.08000183105469,
+          "end": 115.36000061035156
+      },
+      {
+          "word": "entirely",
+          "start": 115.36000061035156,
+          "end": 116.05999755859375
+      },
+      {
+          "word": "Social",
+          "start": 116.81999969482422,
+          "end": 116.86000061035156
+      },
+      {
+          "word": "media",
+          "start": 116.86000061035156,
+          "end": 117.22000122070312
+      },
+      {
+          "word": "obviously",
+          "start": 117.22000122070312,
+          "end": 117.9000015258789
+      },
+      {
+          "word": "makes",
+          "start": 117.9000015258789,
+          "end": 118.12000274658203
+      },
+      {
+          "word": "this",
+          "start": 118.12000274658203,
+          "end": 118.44000244140625
+      },
+      {
+          "word": "worse",
+          "start": 118.44000244140625,
+          "end": 118.69999694824219
+      },
+      {
+          "word": "Everything",
+          "start": 119.18000030517578,
+          "end": 119.45999908447266
+      },
+      {
+          "word": "becomes",
+          "start": 119.45999908447266,
+          "end": 119.87999725341797
+      },
+      {
+          "word": "content",
+          "start": 119.87999725341797,
+          "end": 120.44000244140625
+      },
+      {
+          "word": "You",
+          "start": 120.80000305175781,
+          "end": 120.91999816894531
+      },
+      {
+          "word": "can't",
+          "start": 120.91999816894531,
+          "end": 121.13999938964844
+      },
+      {
+          "word": "just",
+          "start": 121.13999938964844,
+          "end": 121.45999908447266
+      },
+      {
+          "word": "skateboard",
+          "start": 121.45999908447266,
+          "end": 121.72000122070312
+      },
+      {
+          "word": "for",
+          "start": 121.72000122070312,
+          "end": 122.0199966430664
+      },
+      {
+          "word": "the",
+          "start": 122.0199966430664,
+          "end": 122.4000015258789
+      },
+      {
+          "word": "feeling",
+          "start": 122.4000015258789,
+          "end": 122.45999908447266
+      },
+      {
+          "word": "of",
+          "start": 122.45999908447266,
+          "end": 122.72000122070312
+      },
+      {
+          "word": "it",
+          "start": 122.72000122070312,
+          "end": 122.81999969482422
+      },
+      {
+          "word": "You",
+          "start": 123.13999938964844,
+          "end": 123.31999969482422
+      },
+      {
+          "word": "should",
+          "start": 123.31999969482422,
+          "end": 123.5199966430664
+      },
+      {
+          "word": "probably",
+          "start": 123.5199966430664,
+          "end": 123.94000244140625
+      },
+      {
+          "word": "be",
+          "start": 123.94000244140625,
+          "end": 124.54000091552734
+      },
+      {
+          "word": "filming",
+          "start": 124.54000091552734,
+          "end": 124.54000091552734
+      },
+      {
+          "word": "tricks",
+          "start": 124.54000091552734,
+          "end": 124.86000061035156
+      },
+      {
+          "word": "for",
+          "start": 124.86000061035156,
+          "end": 125.16000366210938
+      },
+      {
+          "word": "TikTok",
+          "start": 125.16000366210938,
+          "end": 125.44000244140625
+      },
+      {
+          "word": "You",
+          "start": 126,
+          "end": 126.22000122070312
+      },
+      {
+          "word": "can't",
+          "start": 126.22000122070312,
+          "end": 126.45999908447266
+      },
+      {
+          "word": "just",
+          "start": 126.45999908447266,
+          "end": 126.91999816894531
+      },
+      {
+          "word": "produce",
+          "start": 126.91999816894531,
+          "end": 126.94000244140625
+      },
+      {
+          "word": "music",
+          "start": 126.94000244140625,
+          "end": 127.30000305175781
+      },
+      {
+          "word": "for",
+          "start": 127.30000305175781,
+          "end": 127.63999938964844
+      },
+      {
+          "word": "yourself",
+          "start": 127.63999938964844,
+          "end": 127.9800033569336
+      },
+      {
+          "word": "Why",
+          "start": 128.5800018310547,
+          "end": 128.74000549316406
+      },
+      {
+          "word": "not",
+          "start": 128.74000549316406,
+          "end": 129.02000427246094
+      },
+      {
+          "word": "post",
+          "start": 129.02000427246094,
+          "end": 129.32000732421875
+      },
+      {
+          "word": "those",
+          "start": 129.32000732421875,
+          "end": 129.66000366210938
+      },
+      {
+          "word": "beats",
+          "start": 129.66000366210938,
+          "end": 129.86000061035156
+      },
+      {
+          "word": "on",
+          "start": 129.86000061035156,
+          "end": 130.05999755859375
+      },
+      {
+          "word": "Instagram",
+          "start": 130.05999755859375,
+          "end": 130.47999572753906
+      },
+      {
+          "word": "The",
+          "start": 131.1999969482422,
+          "end": 131.3800048828125
+      },
+      {
+          "word": "act",
+          "start": 131.3800048828125,
+          "end": 131.66000366210938
+      },
+      {
+          "word": "of",
+          "start": 131.66000366210938,
+          "end": 132.10000610351562
+      },
+      {
+          "word": "documenting",
+          "start": 132.10000610351562,
+          "end": 132.3000030517578
+      },
+      {
+          "word": "the",
+          "start": 132.3000030517578,
+          "end": 132.9600067138672
+      },
+      {
+          "word": "hobby",
+          "start": 132.9600067138672,
+          "end": 132.9600067138672
+      },
+      {
+          "word": "becomes",
+          "start": 132.9600067138672,
+          "end": 133.3800048828125
+      },
+      {
+          "word": "more",
+          "start": 133.3800048828125,
+          "end": 133.75999450683594
+      },
+      {
+          "word": "important",
+          "start": 133.75999450683594,
+          "end": 134.1199951171875
+      },
+      {
+          "word": "than",
+          "start": 134.1199951171875,
+          "end": 134.44000244140625
+      },
+      {
+          "word": "actually",
+          "start": 134.44000244140625,
+          "end": 135.0399932861328
+      },
+      {
+          "word": "enjoying",
+          "start": 135.0399932861328,
+          "end": 135.36000061035156
+      },
+      {
+          "word": "the",
+          "start": 135.36000061035156,
+          "end": 135.67999267578125
+      },
+      {
+          "word": "hobby",
+          "start": 135.67999267578125,
+          "end": 135.83999633789062
+      },
+      {
+          "word": "And",
+          "start": 136.4199981689453,
+          "end": 136.4600067138672
+      },
+      {
+          "word": "then",
+          "start": 136.4600067138672,
+          "end": 136.63999938964844
+      },
+      {
+          "word": "there's",
+          "start": 136.63999938964844,
+          "end": 136.9199981689453
+      },
+      {
+          "word": "the",
+          "start": 136.9199981689453,
+          "end": 137.05999755859375
+      },
+      {
+          "word": "productivity",
+          "start": 137.05999755859375,
+          "end": 137.6199951171875
+      },
+      {
+          "word": "guilt",
+          "start": 137.6199951171875,
+          "end": 137.97999572753906
+      },
+      {
+          "word": "We",
+          "start": 138.75999450683594,
+          "end": 138.75999450683594
+      },
+      {
+          "word": "live",
+          "start": 138.75999450683594,
+          "end": 138.89999389648438
+      },
+      {
+          "word": "in",
+          "start": 138.89999389648438,
+          "end": 139.02000427246094
+      },
+      {
+          "word": "a",
+          "start": 139.02000427246094,
+          "end": 139.4600067138672
+      },
+      {
+          "word": "culture",
+          "start": 139.4600067138672,
+          "end": 139.4600067138672
+      },
+      {
+          "word": "where",
+          "start": 139.4600067138672,
+          "end": 139.83999633789062
+      },
+      {
+          "word": "rest",
+          "start": 139.83999633789062,
+          "end": 140.17999267578125
+      },
+      {
+          "word": "feels",
+          "start": 140.17999267578125,
+          "end": 140.55999755859375
+      },
+      {
+          "word": "irresponsible",
+          "start": 140.55999755859375,
+          "end": 141.17999267578125
+      },
+      {
+          "word": "If",
+          "start": 142,
+          "end": 142.02000427246094
+      },
+      {
+          "word": "you're",
+          "start": 142.02000427246094,
+          "end": 142.17999267578125
+      },
+      {
+          "word": "not",
+          "start": 142.17999267578125,
+          "end": 142.75999450683594
+      },
+      {
+          "word": "hustling",
+          "start": 142.75999450683594,
+          "end": 143.25999450683594
+      },
+      {
+          "word": "grinding",
+          "start": 144.0399932861328,
+          "end": 144.0399932861328
+      },
+      {
+          "word": "building",
+          "start": 144.63999938964844,
+          "end": 144.63999938964844
+      },
+      {
+          "word": "something",
+          "start": 144.63999938964844,
+          "end": 145.13999938964844
+      },
+      {
+          "word": "what",
+          "start": 145.3800048828125,
+          "end": 145.72000122070312
+      },
+      {
+          "word": "are",
+          "start": 145.72000122070312,
+          "end": 145.82000732421875
+      },
+      {
+          "word": "you",
+          "start": 145.82000732421875,
+          "end": 145.94000244140625
+      },
+      {
+          "word": "even",
+          "start": 145.94000244140625,
+          "end": 146.32000732421875
+      },
+      {
+          "word": "doing",
+          "start": 146.32000732421875,
+          "end": 146.5399932861328
+      },
+      {
+          "word": "Hobbies",
+          "start": 147.5,
+          "end": 147.5
+      },
+      {
+          "word": "feel",
+          "start": 147.5,
+          "end": 147.83999633789062
+      },
+      {
+          "word": "frivolous",
+          "start": 147.83999633789062,
+          "end": 148.25999450683594
+      },
+      {
+          "word": "because",
+          "start": 148.25999450683594,
+          "end": 148.55999755859375
+      },
+      {
+          "word": "they",
+          "start": 148.55999755859375,
+          "end": 148.77999877929688
+      },
+      {
+          "word": "don't",
+          "start": 148.77999877929688,
+          "end": 149.0399932861328
+      },
+      {
+          "word": "directly",
+          "start": 149.0399932861328,
+          "end": 149.60000610351562
+      },
+      {
+          "word": "contribute",
+          "start": 149.60000610351562,
+          "end": 149.89999389648438
+      },
+      {
+          "word": "to",
+          "start": 149.89999389648438,
+          "end": 150.22000122070312
+      },
+      {
+          "word": "your",
+          "start": 150.22000122070312,
+          "end": 150.52000427246094
+      },
+      {
+          "word": "career",
+          "start": 150.52000427246094,
+          "end": 150.9199981689453
+      },
+      {
+          "word": "or",
+          "start": 150.9199981689453,
+          "end": 151.17999267578125
+      },
+      {
+          "word": "your",
+          "start": 151.17999267578125,
+          "end": 151.5
+      },
+      {
+          "word": "bank",
+          "start": 151.5,
+          "end": 151.63999938964844
+      },
+      {
+          "word": "account",
+          "start": 151.63999938964844,
+          "end": 152.0399932861328
+      },
+      {
+          "word": "or",
+          "start": 152.0399932861328,
+          "end": 152.24000549316406
+      },
+      {
+          "word": "your",
+          "start": 152.24000549316406,
+          "end": 152.5399932861328
+      },
+      {
+          "word": "personal",
+          "start": 152.5399932861328,
+          "end": 152.86000061035156
+      },
+      {
+          "word": "development",
+          "start": 152.86000061035156,
+          "end": 153.33999633789062
+      },
+      {
+          "word": "But",
+          "start": 153.74000549316406,
+          "end": 153.94000244140625
+      },
+      {
+          "word": "that's",
+          "start": 153.94000244140625,
+          "end": 154.22000122070312
+      },
+      {
+          "word": "exactly",
+          "start": 154.22000122070312,
+          "end": 154.60000610351562
+      },
+      {
+          "word": "the",
+          "start": 154.60000610351562,
+          "end": 155.1199951171875
+      },
+      {
+          "word": "point",
+          "start": 155.1199951171875,
+          "end": 155.1199951171875
+      },
+      {
+          "word": "Hobbies",
+          "start": 156,
+          "end": 156
+      },
+      {
+          "word": "aren't",
+          "start": 156,
+          "end": 156.24000549316406
+      },
+      {
+          "word": "supposed",
+          "start": 156.24000549316406,
+          "end": 156.5800018310547
+      },
+      {
+          "word": "to",
+          "start": 156.5800018310547,
+          "end": 156.75999450683594
+      },
+      {
+          "word": "be",
+          "start": 156.75999450683594,
+          "end": 156.97999572753906
+      },
+      {
+          "word": "productive",
+          "start": 156.97999572753906,
+          "end": 157.24000549316406
+      },
+      {
+          "word": "They're",
+          "start": 157.82000732421875,
+          "end": 158.16000366210938
+      },
+      {
+          "word": "supposed",
+          "start": 158.16000366210938,
+          "end": 158.4600067138672
+      },
+      {
+          "word": "to",
+          "start": 158.4600067138672,
+          "end": 158.66000366210938
+      },
+      {
+          "word": "be",
+          "start": 158.66000366210938,
+          "end": 158.72000122070312
+      },
+      {
+          "word": "the",
+          "start": 158.72000122070312,
+          "end": 159.02000427246094
+      },
+      {
+          "word": "antidote",
+          "start": 159.02000427246094,
+          "end": 159.32000732421875
+      },
+      {
+          "word": "to",
+          "start": 159.32000732421875,
+          "end": 159.63999938964844
+      },
+      {
+          "word": "productivity",
+          "start": 159.63999938964844,
+          "end": 160.1199951171875
+      },
+      {
+          "word": "culture",
+          "start": 160.1199951171875,
+          "end": 160.52000427246094
+      },
+      {
+          "word": "not",
+          "start": 160.52000427246094,
+          "end": 161.16000366210938
+      },
+      {
+          "word": "another",
+          "start": 161.16000366210938,
+          "end": 161.52000427246094
+      },
+      {
+          "word": "victim",
+          "start": 161.52000427246094,
+          "end": 161.82000732421875
+      },
+      {
+          "word": "of",
+          "start": 161.82000732421875,
+          "end": 162.05999755859375
+      },
+      {
+          "word": "it",
+          "start": 162.05999755859375,
+          "end": 162.25999450683594
+      },
+      {
+          "word": "When",
+          "start": 162.75999450683594,
+          "end": 162.75999450683594
+      },
+      {
+          "word": "you",
+          "start": 162.75999450683594,
+          "end": 162.94000244140625
+      },
+      {
+          "word": "make",
+          "start": 162.94000244140625,
+          "end": 163.13999938964844
+      },
+      {
+          "word": "music",
+          "start": 163.13999938964844,
+          "end": 163.5
+      },
+      {
+          "word": "just",
+          "start": 163.5,
+          "end": 163.82000732421875
+      },
+      {
+          "word": "because",
+          "start": 163.82000732421875,
+          "end": 164.16000366210938
+      },
+      {
+          "word": "certain",
+          "start": 164.16000366210938,
+          "end": 164.5
+      },
+      {
+          "word": "sounds",
+          "start": 164.5,
+          "end": 164.89999389648438
+      },
+      {
+          "word": "make",
+          "start": 164.89999389648438,
+          "end": 165.22000122070312
+      },
+      {
+          "word": "you",
+          "start": 165.22000122070312,
+          "end": 165.4199981689453
+      },
+      {
+          "word": "happy",
+          "start": 165.4199981689453,
+          "end": 165.6999969482422
+      },
+      {
+          "word": "when",
+          "start": 166.22000122070312,
+          "end": 166.55999755859375
+      },
+      {
+          "word": "you",
+          "start": 166.55999755859375,
+          "end": 166.94000244140625
+      },
+      {
+          "word": "paint",
+          "start": 166.94000244140625,
+          "end": 167.02000427246094
+      },
+      {
+          "word": "just",
+          "start": 167.02000427246094,
+          "end": 167.33999633789062
+      },
+      {
+          "word": "to",
+          "start": 167.33999633789062,
+          "end": 167.55999755859375
+      },
+      {
+          "word": "see",
+          "start": 167.55999755859375,
+          "end": 167.75999450683594
+      },
+      {
+          "word": "colors",
+          "start": 167.75999450683594,
+          "end": 168.1199951171875
+      },
+      {
+          "word": "mixed",
+          "start": 168.1199951171875,
+          "end": 168.5
+      },
+      {
+          "word": "together",
+          "start": 168.5,
+          "end": 168.86000061035156
+      },
+      {
+          "word": "when",
+          "start": 169.44000244140625,
+          "end": 169.72000122070312
+      },
+      {
+          "word": "you",
+          "start": 169.72000122070312,
+          "end": 170.02000427246094
+      },
+      {
+          "word": "skateboard",
+          "start": 170.02000427246094,
+          "end": 170.25999450683594
+      },
+      {
+          "word": "just",
+          "start": 170.25999450683594,
+          "end": 170.72000122070312
+      },
+      {
+          "word": "to",
+          "start": 170.72000122070312,
+          "end": 171.10000610351562
+      },
+      {
+          "word": "feel",
+          "start": 171.10000610351562,
+          "end": 171.10000610351562
+      },
+      {
+          "word": "the",
+          "start": 171.10000610351562,
+          "end": 171.74000549316406
+      },
+      {
+          "word": "movement",
+          "start": 171.74000549316406,
+          "end": 171.74000549316406
+      },
+      {
+          "word": "that's",
+          "start": 172.33999633789062,
+          "end": 172.6999969482422
+      },
+      {
+          "word": "not",
+          "start": 172.6999969482422,
+          "end": 172.94000244140625
+      },
+      {
+          "word": "wasted",
+          "start": 172.94000244140625,
+          "end": 173.27999877929688
+      },
+      {
+          "word": "time",
+          "start": 173.27999877929688,
+          "end": 173.75999450683594
+      },
+      {
+          "word": "That's",
+          "start": 174.4199981689453,
+          "end": 174.66000366210938
+      },
+      {
+          "word": "your",
+          "start": 174.66000366210938,
+          "end": 174.86000061035156
+      },
+      {
+          "word": "brain",
+          "start": 174.86000061035156,
+          "end": 175.13999938964844
+      },
+      {
+          "word": "getting",
+          "start": 175.13999938964844,
+          "end": 175.44000244140625
+      },
+      {
+          "word": "to",
+          "start": 175.44000244140625,
+          "end": 175.82000732421875
+      },
+      {
+          "word": "play",
+          "start": 175.82000732421875,
+          "end": 176.05999755859375
+      },
+      {
+          "word": "That's",
+          "start": 176.82000732421875,
+          "end": 177
+      },
+      {
+          "word": "you",
+          "start": 177,
+          "end": 177.25999450683594
+      },
+      {
+          "word": "remembering",
+          "start": 177.25999450683594,
+          "end": 177.63999938964844
+      },
+      {
+          "word": "what",
+          "start": 177.63999938964844,
+          "end": 177.97999572753906
+      },
+      {
+          "word": "it",
+          "start": 177.97999572753906,
+          "end": 178.3000030517578
+      },
+      {
+          "word": "feels",
+          "start": 178.3000030517578,
+          "end": 178.33999633789062
+      },
+      {
+          "word": "like",
+          "start": 178.33999633789062,
+          "end": 178.6199951171875
+      },
+      {
+          "word": "to",
+          "start": 178.6199951171875,
+          "end": 178.74000549316406
+      },
+      {
+          "word": "be",
+          "start": 178.74000549316406,
+          "end": 179.0399932861328
+      },
+      {
+          "word": "human",
+          "start": 179.0399932861328,
+          "end": 179.22000122070312
+      },
+      {
+          "word": "instead",
+          "start": 179.22000122070312,
+          "end": 179.5800018310547
+      },
+      {
+          "word": "of",
+          "start": 179.5800018310547,
+          "end": 179.72000122070312
+      },
+      {
+          "word": "a",
+          "start": 179.72000122070312,
+          "end": 179.9600067138672
+      },
+      {
+          "word": "productivity",
+          "start": 179.9600067138672,
+          "end": 180.39999389648438
+      },
+      {
+          "word": "machine",
+          "start": 180.39999389648438,
+          "end": 180.9199981689453
+      },
+      {
+          "word": "We've",
+          "start": 181.33999633789062,
+          "end": 181.97999572753906
+      },
+      {
+          "word": "convinced",
+          "start": 181.97999572753906,
+          "end": 181.97999572753906
+      },
+      {
+          "word": "ourselves",
+          "start": 181.97999572753906,
+          "end": 182.47999572753906
+      },
+      {
+          "word": "that",
+          "start": 182.47999572753906,
+          "end": 182.86000061035156
+      },
+      {
+          "word": "if",
+          "start": 182.86000061035156,
+          "end": 183.0399932861328
+      },
+      {
+          "word": "something",
+          "start": 183.0399932861328,
+          "end": 183.36000061035156
+      },
+      {
+          "word": "doesn't",
+          "start": 183.36000061035156,
+          "end": 183.72000122070312
+      },
+      {
+          "word": "lead",
+          "start": 183.72000122070312,
+          "end": 184.1199951171875
+      },
+      {
+          "word": "somewhere",
+          "start": 184.1199951171875,
+          "end": 184.5399932861328
+      },
+      {
+          "word": "it's",
+          "start": 184.8000030517578,
+          "end": 185.13999938964844
+      },
+      {
+          "word": "pointless",
+          "start": 185.13999938964844,
+          "end": 185.44000244140625
+      },
+      {
+          "word": "But",
+          "start": 185.82000732421875,
+          "end": 186.4600067138672
+      },
+      {
+          "word": "what",
+          "start": 186.4600067138672,
+          "end": 186.6199951171875
+      },
+      {
+          "word": "if",
+          "start": 186.6199951171875,
+          "end": 186.75999450683594
+      },
+      {
+          "word": "the",
+          "start": 186.75999450683594,
+          "end": 186.9199981689453
+      },
+      {
+          "word": "point",
+          "start": 186.9199981689453,
+          "end": 187.17999267578125
+      },
+      {
+          "word": "is",
+          "start": 187.17999267578125,
+          "end": 187.3800048828125
+      },
+      {
+          "word": "just",
+          "start": 187.3800048828125,
+          "end": 187.63999938964844
+      },
+      {
+          "word": "the",
+          "start": 187.63999938964844,
+          "end": 187.94000244140625
+      },
+      {
+          "word": "doing",
+          "start": 187.94000244140625,
+          "end": 188.0800018310547
+      },
+      {
+          "word": "What",
+          "start": 188.82000732421875,
+          "end": 189.05999755859375
+      },
+      {
+          "word": "if",
+          "start": 189.05999755859375,
+          "end": 189.22000122070312
+      },
+      {
+          "word": "the",
+          "start": 189.22000122070312,
+          "end": 189.4600067138672
+      },
+      {
+          "word": "value",
+          "start": 189.4600067138672,
+          "end": 189.82000732421875
+      },
+      {
+          "word": "is",
+          "start": 189.82000732421875,
+          "end": 190.17999267578125
+      },
+      {
+          "word": "in",
+          "start": 190.17999267578125,
+          "end": 190.3800048828125
+      },
+      {
+          "word": "the",
+          "start": 190.3800048828125,
+          "end": 190.6999969482422
+      },
+      {
+          "word": "experience",
+          "start": 190.6999969482422,
+          "end": 191.22000122070312
+      },
+      {
+          "word": "itself",
+          "start": 191.22000122070312,
+          "end": 191.77999877929688
+      },
+      {
+          "word": "not",
+          "start": 192.4600067138672,
+          "end": 192.47999572753906
+      },
+      {
+          "word": "in",
+          "start": 192.47999572753906,
+          "end": 192.67999267578125
+      },
+      {
+          "word": "any",
+          "start": 192.67999267578125,
+          "end": 193.02000427246094
+      },
+      {
+          "word": "outcome",
+          "start": 193.02000427246094,
+          "end": 193.39999389648438
+      },
+      {
+          "word": "or",
+          "start": 193.39999389648438,
+          "end": 193.8000030517578
+      },
+      {
+          "word": "product",
+          "start": 193.8000030517578,
+          "end": 194.0399932861328
+      },
+      {
+          "word": "you",
+          "start": 194.0399932861328,
+          "end": 194.24000549316406
+      },
+      {
+          "word": "might",
+          "start": 194.24000549316406,
+          "end": 194.5
+      },
+      {
+          "word": "create",
+          "start": 194.5,
+          "end": 194.8800048828125
+      },
+      {
+          "word": "We've",
+          "start": 195.44000244140625,
+          "end": 195.6199951171875
+      },
+      {
+          "word": "made",
+          "start": 195.6199951171875,
+          "end": 195.75999450683594
+      },
+      {
+          "word": "everything",
+          "start": 195.75999450683594,
+          "end": 196.33999633789062
+      },
+      {
+          "word": "into",
+          "start": 196.33999633789062,
+          "end": 196.6199951171875
+      },
+      {
+          "word": "a",
+          "start": 196.6199951171875,
+          "end": 196.82000732421875
+      },
+      {
+          "word": "potential",
+          "start": 196.82000732421875,
+          "end": 197.16000366210938
+      },
+      {
+          "word": "side",
+          "start": 197.16000366210938,
+          "end": 197.66000366210938
+      },
+      {
+          "word": "hustle",
+          "start": 197.66000366210938,
+          "end": 197.9199981689453
+      },
+      {
+          "word": "Every",
+          "start": 198.94000244140625,
+          "end": 199
+      },
+      {
+          "word": "interest",
+          "start": 199,
+          "end": 199.4199981689453
+      },
+      {
+          "word": "has",
+          "start": 199.4199981689453,
+          "end": 199.74000549316406
+      },
+      {
+          "word": "to",
+          "start": 199.74000549316406,
+          "end": 199.89999389648438
+      },
+      {
+          "word": "be",
+          "start": 199.89999389648438,
+          "end": 200.16000366210938
+      },
+      {
+          "word": "justified",
+          "start": 200.16000366210938,
+          "end": 200.52000427246094
+      },
+      {
+          "word": "through",
+          "start": 200.52000427246094,
+          "end": 201.1199951171875
+      },
+      {
+          "word": "productivity",
+          "start": 201.1199951171875,
+          "end": 201.66000366210938
+      },
+      {
+          "word": "or",
+          "start": 201.66000366210938,
+          "end": 202.1999969482422
+      },
+      {
+          "word": "profit",
+          "start": 202.1999969482422,
+          "end": 202.55999755859375
+      },
+      {
+          "word": "But",
+          "start": 203.13999938964844,
+          "end": 203.3800048828125
+      },
+      {
+          "word": "when",
+          "start": 203.3800048828125,
+          "end": 203.52000427246094
+      },
+      {
+          "word": "every",
+          "start": 203.52000427246094,
+          "end": 203.94000244140625
+      },
+      {
+          "word": "hobby",
+          "start": 203.94000244140625,
+          "end": 204.17999267578125
+      },
+      {
+          "word": "becomes",
+          "start": 204.17999267578125,
+          "end": 204.5800018310547
+      },
+      {
+          "word": "a",
+          "start": 204.5800018310547,
+          "end": 204.86000061035156
+      },
+      {
+          "word": "business",
+          "start": 204.86000061035156,
+          "end": 205.17999267578125
+      },
+      {
+          "word": "opportunity",
+          "start": 205.17999267578125,
+          "end": 205.8000030517578
+      },
+      {
+          "word": "we",
+          "start": 206.52000427246094,
+          "end": 206.66000366210938
+      },
+      {
+          "word": "lose",
+          "start": 206.66000366210938,
+          "end": 206.9199981689453
+      },
+      {
+          "word": "something",
+          "start": 206.9199981689453,
+          "end": 207.33999633789062
+      },
+      {
+          "word": "essential",
+          "start": 207.33999633789062,
+          "end": 207.89999389648438
+      },
+      {
+          "word": "about",
+          "start": 207.89999389648438,
+          "end": 208.24000549316406
+      },
+      {
+          "word": "what",
+          "start": 208.24000549316406,
+          "end": 208.52000427246094
+      },
+      {
+          "word": "makes",
+          "start": 208.52000427246094,
+          "end": 208.74000549316406
+      },
+      {
+          "word": "them",
+          "start": 208.74000549316406,
+          "end": 209.10000610351562
+      },
+      {
+          "word": "valuable",
+          "start": 209.10000610351562,
+          "end": 209.5399932861328
+      },
+      {
+          "word": "in",
+          "start": 209.5399932861328,
+          "end": 209.8000030517578
+      },
+      {
+          "word": "the",
+          "start": 209.8000030517578,
+          "end": 209.97999572753906
+      },
+      {
+          "word": "first",
+          "start": 209.97999572753906,
+          "end": 210.24000549316406
+      },
+      {
+          "word": "place",
+          "start": 210.24000549316406,
+          "end": 210.6199951171875
+      },
+      {
+          "word": "Your",
+          "start": 211.05999755859375,
+          "end": 211.27999877929688
+      },
+      {
+          "word": "hobbies",
+          "start": 211.27999877929688,
+          "end": 211.5399932861328
+      },
+      {
+          "word": "don't",
+          "start": 211.5399932861328,
+          "end": 211.89999389648438
+      },
+      {
+          "word": "owe",
+          "start": 211.89999389648438,
+          "end": 212.05999755859375
+      },
+      {
+          "word": "you",
+          "start": 212.05999755859375,
+          "end": 212.3000030517578
+      },
+      {
+          "word": "anything",
+          "start": 212.3000030517578,
+          "end": 212.6199951171875
+      },
+      {
+          "word": "They",
+          "start": 213.0399932861328,
+          "end": 213.33999633789062
+      },
+      {
+          "word": "don't",
+          "start": 213.33999633789062,
+          "end": 213.52000427246094
+      },
+      {
+          "word": "have",
+          "start": 213.52000427246094,
+          "end": 213.72000122070312
+      },
+      {
+          "word": "to",
+          "start": 213.72000122070312,
+          "end": 213.97999572753906
+      },
+      {
+          "word": "make",
+          "start": 213.97999572753906,
+          "end": 213.97999572753906
+      },
+      {
+          "word": "you",
+          "start": 213.97999572753906,
+          "end": 214.1999969482422
+      },
+      {
+          "word": "money",
+          "start": 214.1999969482422,
+          "end": 214.4199981689453
+      },
+      {
+          "word": "or",
+          "start": 214.4199981689453,
+          "end": 214.6999969482422
+      },
+      {
+          "word": "make",
+          "start": 214.6999969482422,
+          "end": 214.8800048828125
+      },
+      {
+          "word": "you",
+          "start": 214.8800048828125,
+          "end": 215.16000366210938
+      },
+      {
+          "word": "better",
+          "start": 215.16000366210938,
+          "end": 215.32000732421875
+      },
+      {
+          "word": "or",
+          "start": 215.32000732421875,
+          "end": 215.6199951171875
+      },
+      {
+          "word": "make",
+          "start": 215.6199951171875,
+          "end": 215.82000732421875
+      },
+      {
+          "word": "you",
+          "start": 215.82000732421875,
+          "end": 215.9600067138672
+      },
+      {
+          "word": "more",
+          "start": 215.9600067138672,
+          "end": 216.25999450683594
+      },
+      {
+          "word": "interesting",
+          "start": 216.25999450683594,
+          "end": 216.55999755859375
+      },
+      {
+          "word": "Sometimes",
+          "start": 217.25999450683594,
+          "end": 217.82000732421875
+      },
+      {
+          "word": "the",
+          "start": 217.82000732421875,
+          "end": 218.02000427246094
+      },
+      {
+          "word": "most",
+          "start": 218.02000427246094,
+          "end": 218.36000061035156
+      },
+      {
+          "word": "radical",
+          "start": 218.36000061035156,
+          "end": 218.66000366210938
+      },
+      {
+          "word": "thing",
+          "start": 218.66000366210938,
+          "end": 219
+      },
+      {
+          "word": "you",
+          "start": 219,
+          "end": 219.13999938964844
+      },
+      {
+          "word": "can",
+          "start": 219.13999938964844,
+          "end": 219.36000061035156
+      },
+      {
+          "word": "do",
+          "start": 219.36000061035156,
+          "end": 219.63999938964844
+      },
+      {
+          "word": "is",
+          "start": 219.63999938964844,
+          "end": 219.9600067138672
+      },
+      {
+          "word": "just",
+          "start": 219.9600067138672,
+          "end": 220.24000549316406
+      },
+      {
+          "word": "enjoy",
+          "start": 220.24000549316406,
+          "end": 220.5800018310547
+      },
+      {
+          "word": "something",
+          "start": 220.5800018310547,
+          "end": 220.97999572753906
+      },
+      {
+          "word": "for",
+          "start": 220.97999572753906,
+          "end": 221.1999969482422
+      },
+      {
+          "word": "the",
+          "start": 221.1999969482422,
+          "end": 221.33999633789062
+      },
+      {
+          "word": "sake",
+          "start": 221.33999633789062,
+          "end": 221.52000427246094
+      },
+      {
+          "word": "of",
+          "start": 221.52000427246094,
+          "end": 221.74000549316406
+      },
+      {
+          "word": "enjoying",
+          "start": 221.74000549316406,
+          "end": 222.0399932861328
+      },
+      {
+          "word": "it",
+          "start": 222.0399932861328,
+          "end": 222.27999877929688
+      }
+  ],
+  "usage": {
+      "type": "duration",
+      "seconds": 223
+  }
+}
