@@ -126,34 +126,36 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="max-w-screen-sm mx-auto p-4 flex flex-col gap-16">
+    <div className="max-w-screen-sm mx-auto p-4 flex flex-col gap-4">
       {/* api key section */}
-      <div>
-        <h1 className="text-2xl font-bold mb-2">Imposta API Key</h1>
+      <div className="card-body bg-base-200 rounded-lg p-8">
+        <h1 className="text-sm font-bold">Imposta API Key</h1>
         <div className="flex gap-2">
           <input
             type="password"
             value={apiKey}
             onChange={(e) => setApiKey(e.target.value)}
-            className="input flex-1"
+            className="input input-sm flex-1"
+            autoComplete="off"
+            placeholder="Inserisci la tua API Key"
           />
-          <button onClick={handleSetApiKey} className="btn">
+          <button onClick={handleSetApiKey} className="btn btn-sm btn-outline">
             Imposta API Key
           </button>
         </div>
       </div>
       {/* upload section */}
-      <div className="flex flex-col gap-2">
-        <h1 className="text-2xl font-bold mb-2">Carica un file MP3</h1>
-        <div className="flex gap-2">
+      <div className="flex flex-col gap-4 card-body bg-base-200 rounded-lg p-8">
+        <h1 className="text-2xl font-bold">Carica un file MP3</h1>
+        <div className="flex-col md:flex-row md:flex gap-2">
           <input
             type="file"
             accept=".mp3"
-            className="file-input w-full flex-1"
+            className="file-input w-full flex-3"
             onChange={handleUploadFile}
           />
           <button
-            className="btn btn-primary"
+            className="btn btn-primary md:flex-1 w-full md:w-auto mt-2 md:mt-0"
             onClick={generateTranscription}
             disabled={isLoading}
           >
@@ -161,24 +163,31 @@ export default function Home() {
           </button>
         </div>
         {data && (
-          <div className="mt-16 mb-4">
-            <h2 className="text-xl font-bold mb-4 mx-auto text-center">
+          <div>
+            <h2 className="text-xl font-bold mb-4 mx-auto text-center card-body bg-primary text-white rounded-lg p-4">
               ✨Sottotitoli Generati Con Successo!✨
             </h2>
-            <div className="flex gap-2">
+            <div className="flex-col md:flex-row md:flex gap-2 mb-4">
               <button
-                className="btn btn-outline flex-1"
+                className="btn btn-outline w-full md:flex-1 mb-2 md:mb-0"
                 onClick={handleDownloadWordByWord}
               >
-                {isLoading ? "Caricamento..." : "Scarica Parola per Parola"}
+                {isLoading ? "Caricamento..." : "👉 Scarica Parola per Parola"}
               </button>
               <button
-                className="btn btn-outline flex-1"
+                className="btn btn-outline w-full md:flex-1"
                 onClick={handleDownloadSentenceBySentence}
               >
-                {isLoading ? "Caricamento..." : "Scarica Frase per Frase"}
+                {isLoading ? "Caricamento..." : "👉 Scarica Frase per Frase"}
               </button>
             </div>
+            <Image
+              src="/cat-swagging.gif"
+              alt="cat swagging"
+              width={1280}
+              height={720}
+              className="w-full"
+            />
           </div>
         )}
         {/* funny gifs */}
@@ -189,15 +198,6 @@ export default function Home() {
             width={1280}
             height={720}
             className="w-full mt-4"
-          />
-        )}
-        {data && (
-          <Image
-            src="/cat-swagging.gif"
-            alt="cat swagging"
-            width={1280}
-            height={720}
-            className="w-full"
           />
         )}
       </div>
