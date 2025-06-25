@@ -2,6 +2,7 @@
 
 import OpenAI, { toFile } from "openai";
 import { useEffect, useState } from "react";
+import Image from "next/image";
 
 export default function Home() {
   const [apiKey, setApiKey] = useState<string>("");
@@ -160,20 +161,44 @@ export default function Home() {
           </button>
         </div>
         {data && (
-          <div className="flex gap-2">
-            <button
-              className="btn btn-outline flex-1"
-              onClick={handleDownloadWordByWord}
-            >
-              {isLoading ? "Caricamento..." : "Scarica Parola per Parola"}
-            </button>
-            <button
-              className="btn btn-outline flex-1"
-              onClick={handleDownloadSentenceBySentence}
-            >
-              {isLoading ? "Caricamento..." : "Scarica Frase per Frase"}
-            </button>
+          <div className="mt-16 mb-4">
+            <h2 className="text-xl font-bold mb-4 mx-auto text-center">
+              ✨Sottotitoli Generati Con Successo!✨
+            </h2>
+            <div className="flex gap-2">
+              <button
+                className="btn btn-outline flex-1"
+                onClick={handleDownloadWordByWord}
+              >
+                {isLoading ? "Caricamento..." : "Scarica Parola per Parola"}
+              </button>
+              <button
+                className="btn btn-outline flex-1"
+                onClick={handleDownloadSentenceBySentence}
+              >
+                {isLoading ? "Caricamento..." : "Scarica Frase per Frase"}
+              </button>
+            </div>
           </div>
+        )}
+        {/* funny gifs */}
+        {isLoading && (
+          <Image
+            src="/cat-reading.gif"
+            alt="cat reading"
+            width={1280}
+            height={720}
+            className="w-full mt-4"
+          />
+        )}
+        {data && (
+          <Image
+            src="/cat-swagging.gif"
+            alt="cat swagging"
+            width={1280}
+            height={720}
+            className="w-full"
+          />
         )}
       </div>
     </div>
