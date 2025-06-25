@@ -7,6 +7,7 @@ export default function Home() {
   const [apiKey, setApiKey] = useState<string>("");
   const [file, setFile] = useState<File | null>(null);
   const [isLoading, setIsLoading] = useState<boolean>(false);
+  const [data, setData] = useState<any>(null);
 
   // API KEY
   const handleSetApiKey = () => {
@@ -43,6 +44,7 @@ export default function Home() {
         response_format: "verbose_json",
         timestamp_granularities: ["segment", "word"],
       });
+      setData(data);
       console.log(data); // verbose_json
     } catch (err) {
       console.error(err);
@@ -51,6 +53,72 @@ export default function Home() {
       setIsLoading(false);
     }
   };
+
+  // GENERATE SRT FILE
+  const generateSrtFile = (data: any, type: "word" | "sentence") => {
+    let items = [];
+    if (type === "sentence") {
+      // Sentence by sentence: use segments
+      items = data.segments || [];
+      return items
+        .map((item: any, idx: number) => {
+          const start = secondsToSrtTimestamp(item.start);
+          const end = secondsToSrtTimestamp(item.end);
+          return `${idx + 1}\n${start} --> ${end}\n${item.text.trim()}\n`;
+        })
+        .join("\n");
+    } else {
+      // Word by word: use words
+      items = data.words || [];
+      return items
+        .map((item: any, idx: number) => {
+          const start = secondsToSrtTimestamp(item.start);
+          const end = secondsToSrtTimestamp(item.end);
+          return `${idx + 1}\n${start} --> ${end}\n${item.word}\n`;
+        })
+        .join("\n");
+    }
+  };
+
+  // Helper: convert seconds to SRT timestamp
+  function secondsToSrtTimestamp(seconds: number) {
+    const date = new Date(0);
+    date.setSeconds(seconds);
+    const ms = Math.floor((seconds % 1) * 1000);
+    return (
+      date.toISOString().substr(11, 8).replace(".", ",") +
+      `,${ms.toString().padStart(3, "0")}`
+    );
+  }
+
+  // DOWNLOAD WORD BY WORD
+  const handleDownloadWordByWord = () => {
+    if (!data) return;
+    const srt = generateSrtFile(data, "word");
+    downloadSrt(srt, "word_by_word.srt");
+  };
+
+  // DOWNLOAD SENTENCE BY SENTENCE
+  const handleDownloadSentenceBySentence = () => {
+    if (!data) return;
+    const srt = generateSrtFile(data, "sentence");
+    downloadSrt(srt, "sentence_by_sentence.srt");
+  };
+
+  // Helper: trigger download of SRT file
+  function downloadSrt(srtContent: string, filename: string) {
+    const blob = new Blob([srtContent], { type: "text/plain" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    setTimeout(() => {
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    }, 0);
+  }
 
   useEffect(() => {
     handleGetApiKey();
@@ -91,6 +159,22 @@ export default function Home() {
             {isLoading ? "Caricamento..." : "Crea Sottotitoli"}
           </button>
         </div>
+        {data && (
+          <div className="flex gap-2">
+            <button
+              className="btn btn-outline flex-1"
+              onClick={handleDownloadWordByWord}
+            >
+              {isLoading ? "Caricamento..." : "Scarica Parola per Parola"}
+            </button>
+            <button
+              className="btn btn-outline flex-1"
+              onClick={handleDownloadSentenceBySentence}
+            >
+              {isLoading ? "Caricamento..." : "Scarica Frase per Frase"}
+            </button>
+          </div>
+        )}
       </div>
     </div>
   );
